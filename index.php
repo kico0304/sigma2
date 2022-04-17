@@ -25,7 +25,7 @@
     <?php include 'includes/header.php'; ?>
 
     natasa
-mila r
+mila r kico
     <!-- FOOTER -->
     <?php include 'includes/footer.php'; ?>
 </body>
