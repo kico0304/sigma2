@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    test 2 Natasa
+    <!-- HEADER -->
+    <?php include 'includes/header.php'; ?>
 </body>
 </html>
