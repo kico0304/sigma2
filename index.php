@@ -23,5 +23,8 @@
 <body>
     <!-- HEADER -->
     <?php include 'includes/header.php'; ?>
+
+    <!-- FOOTER -->
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>
