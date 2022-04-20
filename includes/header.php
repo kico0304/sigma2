@@ -35,7 +35,7 @@
 				<a class="nav-link" href="index.php">Početna</a>
 			  </li>
 			   <li class="nav-item"><a class="nav-link" href="about.php">O nama</a></li>
-			    <li class="nav-item"><a class="nav-link" href="service.php">U izgradnji</a></li>
+			    <li class="nav-item"><a class="nav-link" href="projects.php">Ponuda stanova</a></li>
 			   <li class="nav-item"><a class="nav-link" href="contact.php">Kontakt</a></li>
 			</ul>
 		  </div>

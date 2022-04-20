@@ -331,7 +331,7 @@ a:focus {
 }
 
 .title-color {
-  color: #223a66;
+  color: #0e132a;
 }
 
 .secondary-bg {
@@ -352,6 +352,24 @@ a:focus {
 
 .gray-bg {
   background: #f4f9fc;
+}
+.footer-area {
+
+  position: relative;
+  overflow: hidden;
+}
+.footer-area::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/arrowTestimonial.png);
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0px;
+  animation: slide1 1s ease-in-out infinite;
 }
 
 @media (max-width: 480px) {
@@ -453,7 +471,7 @@ a:focus {
 }
 
 .bg-1 {
-  background: url("../images/bg/22.jpg") no-repeat 50% 50%;
+  background: url("../images/imgAbout.jpg") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
 }
@@ -832,9 +850,7 @@ a:focus {
   color: #223a66;
 }
 
-.cta-section {
-  margin-bottom: -80px;
-}
+
 
 .cta-2 {
   background: url("../images/bg/cta-bg.png") no-repeat;
@@ -1621,6 +1637,46 @@ transform: translateY(-50%);
 background: #ff5f13
 }
 
+.ts-service-box .ts-service-box-info {
+  margin-left: 25px;
+  margin-bottom: 40px;
+}
+#midlle-box {
+  padding: 0;
+}
+.area-title {
+  font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.section-sub-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  margin: 0 0 60px;
+  color: #212121;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 15vh;
+  min-height: 1px;
+}
+
+.about {
+  padding:50px 0 !important
+}
+.about-headline {
+  margin-bottom: 20px;
+}
+.choice-list-headline {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 15px 0px;
+}
 @media (max-width:1400px) {
   .slider-area .hero__caption h1, .stock-text h2 {
     font-size: 120px;
@@ -1645,6 +1701,10 @@ background: #ff5f13
   .slider-area .hero__caption h1, .stock-text h2 {
     font-size: 3rem;
   }
+  .ts-service-box .ts-service-box-info {
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
 }
 @media (max-width:599px) {
   .single-slider {
@@ -1665,6 +1725,15 @@ background: #ff5f13
 .slider-area .hero__caption h1, .stock-text h2 {
   font-size: 2.4rem;
 }
+.service-box-title{
+  font-size: 1.2rem;
+}
+
+.ts-service-box-img img{
+  max-width:40px
+}
+
+
 }
 @media (max-width:359px) {
   .slider-area .hero__caption .hero-text1 span {
@@ -1677,26 +1746,4 @@ background: #ff5f13
 .slider-area .hero__caption h1, .stock-text h2 {
   font-size: 2.2rem;
 }
-}
-
-.ts-service-box .ts-service-box-info {
-  margin-left: 25px;
-  margin-bottom: 40px;
-}
-#midlle-box {
-  padding: 0;
-}
-.area-title {
-  font-size: 18px;
-    line-height: 28px;
-    margin: 0;
-    text-transform: uppercase;
-    font-weight: 300;
-}
-.section-sub-title {
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 46px;
-  margin: 0 0 60px;
-  color: #212121;
 }

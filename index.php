@@ -94,7 +94,7 @@
               <img loading="lazy" src="images/imgService01.png" alt="service-icon">
             </div>
             <div class="ts-service-box-info">
-              <h3 class="service-box-title"><a href="#">Odlične lokacije</a></h3>
+              <h3 class="service-box-title">Odlične lokacije</h3>
               <p>ovoljno blizu da vam sve bude nadohvat ruke, a dovoljno daleko da biste imali svoj mir i komfor - naši stanovi nalaze se u širem centru Beograda.</p>
             </div>
           </div><!-- Service 1 end -->
@@ -104,7 +104,7 @@
               <img loading="lazy" src="images/imgService04.png" alt="service-icon">
             </div>
             <div class="ts-service-box-info">
-              <h3 class="service-box-title"><a href="#">Kvalitetna gradnja</a></h3>
+              <h3 class="service-box-title">Kvalitetna gradnja</h3>
               <p>Svaki kvadrat izgradjen je u skladu sa najsavremenijim standardima gradnje, energetskom efikasnošću i potrebama kupaca.</p>
             </div>
           </div><!-- Service 2 end -->
@@ -114,7 +114,7 @@
               <img loading="lazy" src="images/imgService02.png" alt="service-icon">
             </div>
             <div class="ts-service-box-info">
-              <h3 class="service-box-title"><a href="#">Infrastrukturna podrška</a></h3>
+              <h3 class="service-box-title">Infrastrukturna podrška</h3>
               <p>Po principu "ključ u ruke" za naše kupce i klijente gradimo stambene i poslove objekte, uz kvalifikovani i stručni kadar inženjera iz oblasti arhitekture, elektrotehnike i mašinstva.</p>
             </div>
           </div><!-- Service 3 end -->
@@ -136,7 +136,7 @@
               <img loading="lazy" src="images/imgService06.png" alt="service-icon">
             </div>
             <div class="ts-service-box-info">
-              <h3 class="service-box-title"><a href="#">Siguran izbor</a></h3>
+              <h3 class="service-box-title">Siguran izbor</h3>
               <p>Kupovina stana je kupovina poverenja koju je našoj kompaniji poklonilo više od hiljadu porodica za dve decenije rada.</p>
             </div>
           </div><!-- Service 4 end -->
@@ -146,7 +146,7 @@
               <img loading="lazy" src="images/imgService05.png" alt="service-icon">
             </div>
             <div class="ts-service-box-info">
-              <h3 class="service-box-title"><a href="#">Ulaganje u budućnost</a></h3>
+              <h3 class="service-box-title">Ulaganje u budućnost</h3>
               <p>Kupovina stana je investicija koja uz našu asistenciju uvek donosi i kvalitet više i vrednost više.</p>
             </div>
           </div><!-- Service 5 end -->
@@ -156,7 +156,7 @@
               <img loading="lazy" src="images/imgService03.png" alt="service-icon">
             </div>
             <div class="ts-service-box-info">
-              <h3 class="service-box-title"><a href="#">Profesionalna usluga</a></h3>
+              <h3 class="service-box-title">Profesionalna usluga</h3>
               <p>Savet, pomoć, asistencija i podrška koje pružamo našim kupcima i klijentima od samog početka saradnje su ključni za poverenje koje gradimo i potvrda našeg trajanja.</p>
             </div>
           </div><!-- Service 6 end -->
