@@ -1,13 +1,5 @@
-/*=== MEDIA QUERY ===*/
-/*
-Theme Name: Medic
-Author: Themefisher
-Author URI: https://themefisher.com/
-Description: Medicle Template
-Version: 1.0.0
 
-*/
-@import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 html {
   overflow-x: hidden;
 }
@@ -339,7 +331,7 @@ a:focus {
 }
 
 .title-color {
-  color: #223a66;
+  color: #0e132a;
 }
 
 .secondary-bg {
@@ -360,6 +352,24 @@ a:focus {
 
 .gray-bg {
   background: #f4f9fc;
+}
+.footer-area {
+
+  position: relative;
+  overflow: hidden;
+}
+.footer-area::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/arrowTestimonial.png);
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0px;
+  animation: slide1 1s ease-in-out infinite;
 }
 
 @media (max-width: 480px) {
@@ -432,10 +442,15 @@ a:focus {
 }
 
 .header-top-bar {
-  background: #223a66;
+  background: #191a33;
   font-size: 14px;
   padding: 10px 0px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    z-index: 9999;
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
   color: #fff;
 }
 
@@ -456,7 +471,7 @@ a:focus {
 }
 
 .bg-1 {
-  background: url("../images/bg/22.jpg") no-repeat 50% 50%;
+  background: url("../images/imgAbout.jpg") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
 }
@@ -527,16 +542,9 @@ a:focus {
     font-size: 56px;
     line-height: 70px;
   }
-  .banner {
-    background: #fff !important;
-  }
+
 }
 
-@media (max-width: 992px) {
-  .banner {
-    background: #fff !important;
-  }
-}
 
 .about-img img {
   border-radius: 5px;
@@ -842,9 +850,7 @@ a:focus {
   color: #223a66;
 }
 
-.cta-section {
-  margin-bottom: -80px;
-}
+
 
 .cta-2 {
   background: url("../images/bg/cta-bg.png") no-repeat;
@@ -1491,3 +1497,253 @@ a:focus {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+/*
+index.php */
+
+
+
+
+
+.single-slider{
+
+  position: relative;
+  overflow: hidden;
+  background: url(../images/imgHeader.jpg) no-repeat;
+  background-size: cover;
+  min-height: 550px;
+  background-position: top;
+z-index: 999;
+opacity: 1;
+display: flex;
+justify-content: center;
+align-items: center
+
+}
+
+.single-slider::before {
+  background-image: -moz-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
+  background-image: -ms-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+
+.banner .block {
+  padding: 80px 0px 160px;
+}
+
+
+h2 {
+font-family: "Barlow", sans-serif;
+color: #0b1c39;
+margin-top: 0px;
+font-style: normal;
+font-weight: 500;
+text-transform: normal
+}
+
+.footer -menu li a:hover {
+text-decoration: none
+}
+
+
+
+.hero__caption  {
+position: relative;
+top: -8vh;
+left: -5vw;
+}
+
+
+.slider-area .hero__caption h1 {
+font-size: 140px;
+font-weight: 900;
+color: #ffffff;
+font-family: 'Barlow', sans-serif;
+line-height: 1;
+text-transform: uppercase;
+color: #ff5f13;
+margin: 0;
+padding: 0
+}
+ .stock-text {
+  position: relative;
+  left: 119px;
+
+}
+
+.stock-text h2 {
+font-size: 140px;
+font-weight: 800;
+margin: 0;
+line-height: 1;
+text-transform: uppercase;
+position: absolute;
+color: #fff
+}
+
+
+ .stock-text h2:nth-child(1) {
+color: transparent;
+-webkit-text-stroke: 1px #fff;
+-webkit-text-fill-color: transparent
+}
+
+.stock-text h2:nth-child(2) {
+color: #ff5f13;
+-webkit-animation: animate 4s ease-in-out infinite;
+animation: animate 4s ease-in-out infinite
+}
+
+@keyframes animate {
+0%,
+100% {
+  clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 69%, 100% 52%, 100% 100%, 0% 100%)
+}
+50% {
+  clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%)
+}
+}
+
+.slider-area .hero__caption .hero-text1 span {
+position: relative;
+color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+font-family: "Teko", sans-serif;
+font-weight: 400;
+letter-spacing: 0.03em;
+display: block
+}
+
+.slider-area .hero__caption .hero-text1 span::before {
+position: absolute;
+content: "";
+width: 25px;
+height: 2px;
+top: 0;
+left: -30px;
+top: 50%;
+transform: translateY(-50%);
+background: #ff5f13
+}
+
+.ts-service-box .ts-service-box-info {
+  margin-left: 25px;
+  margin-bottom: 40px;
+}
+#midlle-box {
+  padding: 0;
+}
+.area-title {
+  font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.section-sub-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  margin: 0 0 60px;
+  color: #212121;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 15vh;
+  min-height: 1px;
+}
+
+.about {
+  padding:50px 0 !important
+}
+.about-headline {
+  margin-bottom: 20px;
+}
+.choice-list-headline {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 15px 0px;
+}
+@media (max-width:1400px) {
+  .slider-area .hero__caption h1, .stock-text h2 {
+    font-size: 120px;
+  }
+  .hero__caption {
+    top: -2vh;
+    left: -12vw;
+}
+
+}
+
+@media (max-width:1200px) {
+  .slider-area .hero__caption h1, .stock-text h2 {
+    font-size: 90px;
+  }
+  .single-slider {
+    min-height: 350px;
+  }
+}
+
+@media (max-width:959px) {
+  .slider-area .hero__caption h1, .stock-text h2 {
+    font-size: 3rem;
+  }
+  .ts-service-box .ts-service-box-info {
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+}
+@media (max-width:599px) {
+  .single-slider {
+    min-height: 200px;
+}
+  .slider-area .hero__caption .hero-text1 span {
+
+    font-size: 14px;
+
+}
+  .hero__caption {
+    left: -6vw;
+}
+.stock-text {
+
+  left: 20px;
+}
+.slider-area .hero__caption h1, .stock-text h2 {
+  font-size: 2.4rem;
+}
+.service-box-title{
+  font-size: 1.2rem;
+}
+
+.ts-service-box-img img{
+  max-width:40px
+}
+
+
+}
+@media (max-width:359px) {
+  .slider-area .hero__caption .hero-text1 span {
+
+    font-size: 13px;
+
+}
+
+
+.slider-area .hero__caption h1, .stock-text h2 {
+  font-size: 2.2rem;
+}
+}
