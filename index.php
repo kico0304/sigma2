@@ -39,9 +39,9 @@
 
         <div class="col-lg-8 col-sm-6">
           <div class="about-content pl-4 mt-4 mt-lg-0">
-            <h2 class="mt-4 title-color">Sigma2 je poverenje.</h2>
+            <h2 class="mt-4 title-color">Sigma2 je poverenje</h2>
 
-            <p class="mb-2">Vodeći računa o svakom detalju, odabrali smo samo najbolje za buduće vlasnike</p>
+            <p class="mb-2 pera-top">Vodeći računa o svakom detalju, odabrali smo samo najbolje za buduće vlasnike</p>
 
             <p class="mb-2">Naš osnovni cilj jeste da kupci budu zadovoljni kvalitetom naših objekata u svakom pogledu, i da kupovinom našeg stambenog ili poslovnog prostora žive i rade u okruženju koje ispunjava sve njihove zahteve.</p>
 
@@ -152,15 +152,13 @@
       <div class="row justify-content-center">
         <div class="col-lg-7">
           <div class="section-title text-center">
-            <h2>Naši partneri</h2>
+            <h3 class="section-sub-title">Naši partneri</h3>
             <div class="divider mx-auto my-4"></div>
             <p>Kada nam partner pokloni svoje povjerenje činimo i posljednje napore kako bi naša zajednička vizija budućeg projekta težila savršenstvu.</p>
           </div>
         </div>
       </div>
     </div>
-
-
 
     <div class="container">
       <div class="row clients-logo">

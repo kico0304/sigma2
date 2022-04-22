@@ -7,7 +7,7 @@
 						<img src="images/logo.png" alt="" class="img-fluid">
 					</div>
 					<h4 class="text-capitalize mb-3">VAŠE NOVO MJESTO ZA ŽIVOT</h4>
-					<p>Nastojimo ostvariti partnersku i profesionalnu suradnju te vam ispuniti očekivanja. Spremni smo realizirati svaki projekt bez obzira na njegovu kompleksnost.</p>
+					<p class="info1">Nastojimo ostvariti partnersku i profesionalnu suradnju te vam ispuniti očekivanja. Spremni smo realizirati svaki projekt bez obzira na njegovu kompleksnost.</p>
 
 					<ul class="list-inline footer-socials mt-4">
 						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
@@ -59,7 +59,7 @@
 		<div class="footer-btm py-4 mt-5">
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
-					<div class="copyright">Copyright © <span class="currentYear"></span> <span class="text-color">Sigma2</span> |  Sva prava pridržana.
+					<div class="copyright">Copyright © <span class="currentYear"></span> <span class="color-footer-text">Sigma2</span> |  Sva prava pridržana.
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -89,20 +89,24 @@
 </script>
 
 
-  <script src="js/slick.min.js"></script>
-  <script src="js/script.js"></script>
 
+
+   <!-- Main jQuery -->
+   <script src="plugins/jquery/jquery.js"></script>
     <!-- Bootstrap 4.3.2 -->
     <script src="plugins/bootstrap/js/popper.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- <script src="plugins/counterup/jquery.easing.js"></script> -->
     <!-- Slick Slider -->
-    <!-- <script src="plugins/slick-carousel/slick/slick.min.js"></script> -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
     <!-- Counterup -->
-    <!-- <script src="plugins/counterup/jquery.waypoints.min.js"></script> -->
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
 
-    <!-- <script src="plugins/shuffle/shuffle.min.js"></script> -->
-    <!-- <script src="plugins/counterup/jquery.counterup.min.js"></script> -->
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
     <!-- Google Map -->
     <script src="plugins/google-map/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>

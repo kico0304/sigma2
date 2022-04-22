@@ -26,8 +26,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
-				<h2 class="title-color">Gradimo povjerenje i stanove Vaše budućnosti!</h2>
-        <h2 class="title-color">Mi smo iskusan tim usmeren na kvalitet</h2>
+				<h2 class="title-color-about">Gradimo povjerenje i stanove Vaše budućnosti!</h2>
+        <h2 class="subtitle-color-about">Mi smo iskusan tim usmeren na kvalitet</h2>
 
 
 			</div>

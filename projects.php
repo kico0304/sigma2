@@ -24,7 +24,7 @@
 
 <section class="cta-section ">
 	<div class="container">
-  <h3>Tačke interesa</h3>
+  <h3 class="headline-projects">Tačke interesa</h3>
 		<div class="cta position-relative">
 			<div class="row">
 
