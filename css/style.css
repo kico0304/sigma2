@@ -826,11 +826,11 @@ a:focus {
   }
 }
 
-.cta {
+/* .cta {
   background: url("../images/bg/bg-4.jpg") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
-}
+} */
 
 .cta:before {
   position: absolute;
@@ -1675,7 +1675,22 @@ background: #ff5f13
 .choice-list-headline {
   font-size: 2rem;
   font-weight: 700;
-  margin: 0 0 15px 0px;
+  margin: 0 0 2rem 0;
+}
+
+.cta-page {
+  background: url(../images/imgAbout04.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.title-color {
+  color: #223a66;
+}
+.about-page-box  {
+  margin-top: 4rem;
+}
+.about-page-box .row {
+  align-items: center;
 }
 @media (max-width:1400px) {
   .slider-area .hero__caption h1, .stock-text h2 {

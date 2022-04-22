@@ -4,9 +4,9 @@
 ;(function ($) {
 
 	'use strict';
-	
+
  // SCROLL TO TOP
-  
+
   $(window).on('scroll', function () {
     if ($(window).scrollTop() > 70) {
         $('.backtop').addClass('reveal');
@@ -14,7 +14,7 @@
         $('.backtop').removeClass('reveal');
     }
 });
- 
+
 	$('.portfolio-single-slider').slick({
 		infinite: true,
 		arrows: false,
@@ -60,7 +60,7 @@
 		        slidesToScroll: 2
 		      }
 		    }
-		  
+
   		]
 	});
 
@@ -104,7 +104,7 @@
 		        slidesToScroll: 1
 		      }
 		    }
-		  
+
   		]
 	});
 
@@ -146,7 +146,7 @@
 		        slidesToScroll: 1
 		      }
 		    }
-		  
+
   		]
 	});
 
@@ -176,7 +176,7 @@
 	      time: 1000
 	  });
 
-		
+
  // Shuffle js filter and masonry
     var Shuffle = window.Shuffle;
     var jQuery = window.jQuery;

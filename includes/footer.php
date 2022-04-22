@@ -59,15 +59,14 @@
 		<div class="footer-btm py-4 mt-5">
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
-					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Novena</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
+					<div class="copyright">Copyright © <span class="currentYear"></span> <span class="text-color">Sigma2</span> |  Sva prava pridržana.
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
 						<form action="#" class="subscribe">
-							<input type="text" class="form-control" placeholder="Your Email address">
-							<a href="#" class="btn btn-main-2 btn-round-full">Subscribe</a>
+							<input type="text" class="form-control" placeholder="Vaš Email">
+							<a href="#" class="btn btn-main-2 btn-round-full">Pošalji</a>
 						</form>
 					</div>
 				</div>
@@ -83,3 +82,29 @@
 		</div>
 	</div>
 </footer>
+
+<script type="text/javascript">
+	let currentYear = document.querySelector('.currentYear');
+	currentYear.innerHTML = (new Date().getFullYear());
+</script>
+
+
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+
+     <!-- Main jQuery -->
+	 <script src="plugins/jquery/jquery.js"></script>
+    <!-- Bootstrap 4.3.2 -->
+    <script src="plugins/bootstrap/js/popper.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/counterup/jquery.easing.js"></script>
+    <!-- Slick Slider -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Counterup -->
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+    <!-- Google Map -->
+    <script src="plugins/google-map/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
