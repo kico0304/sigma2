@@ -70,7 +70,7 @@
             <p class="mb-4">Dobru lokaciju treba prepoznati. Često su u pitanju devastirane ili neizgrađene površine, koje inspirišu Sigma2 da kreira novi pogled na svet, kvalitetnom gradnjom nudeći siguran izbor novim vlasnicima stanova.</p>
 
 
-            <a href="about.php" class="btn btn-main-2 btn-round-full btn-icon">Kontaktirajte nas<i class="icofont-simple-right ml-3"></i></a>
+            <a href="contact.php" class="btn btn-main-2 btn-round-full btn-icon">Kontaktirajte nas<i class="icofont-simple-right ml-3"></i></a>
           </div>
         </div>
       </div>
@@ -222,11 +222,6 @@
       </div>
     </div>
   </section>
-
-
-  <script src="js/jquery.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/script.js"></script>
 
   <!-- FOOTER -->
   <?php include 'includes/footer.php'; ?>

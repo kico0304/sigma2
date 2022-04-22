@@ -23,7 +23,7 @@
             message.fadeOut();
         }, 2000);
     }
-    
+
     form.submit(function (e) {
         e.preventDefault();
         form_data = $(this).serialize();
@@ -35,5 +35,5 @@
         .done(done_func)
         .fail(fail_func);
     });
-    
+
 })(jQuery);

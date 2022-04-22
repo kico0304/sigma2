@@ -1,24 +1,26 @@
 <html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
-    <meta name="author" content="themefisher.com">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Sigma2</title>
+  <title>Sigma2</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
-    <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Icon Font Css -->
-    <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
-    <!-- Slick Slider  CSS -->
-    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Slick Slider  CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- HEADER -->

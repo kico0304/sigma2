@@ -1,25 +1,28 @@
 <html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
-    <meta name="author" content="themefisher.com">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Sigma2</title>
+  <title>Sigma2</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
-    <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Icon Font Css -->
-    <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
-    <!-- Slick Slider  CSS -->
-    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Slick Slider  CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- HEADER -->
     <?php include 'includes/header.php'; ?>
@@ -44,6 +47,9 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<h2 class="title-color">Gradimo povjerenje i stanove Vaše budućnosti!</h2>
+        <h2 class="title-color">Mi smo iskusan tim usmeren na kvalitet</h2>
+
+
 			</div>
 			<div class="col-lg-6">
 				<p>Grading je stabilan i pouzdan partner, prepoznat po kvalitetu gradnje i poštovanju dogovora, koji klijentima pruža viši kvalitet života.</p>
@@ -54,8 +60,22 @@
 	</div>
 </section>
 
+<section class="section cta-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<div class="cta-content">
+					<div class="divider mb-4"></div>
+					<h2 class="mb-5 text-lg">Dobrim planiranjem i timskim radom ostvarujemo najviši stepen kvaliteta.</span></h2>
+					<a href="contact.php" class="btn btn-main-2 btn-round-full">Kontaktirajte nas<i class="icofont-simple-right  ml-2"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-<section class="fetaure-page ">
+
+<section class="fetaure-page  about-page-box">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
