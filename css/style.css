@@ -358,7 +358,7 @@ a:focus {
   position: relative;
   overflow: hidden;
 }
-.footer-area::after {
+/* .footer-area::after {
   position: absolute;
   content: "";
   background-image: url(../images/arrowTestimonial.png);
@@ -370,7 +370,7 @@ a:focus {
   background-size: cover;
   margin-left: 0px;
   animation: slide1 1s ease-in-out infinite;
-}
+} */
 
 @media (max-width: 480px) {
   .text-lg {
