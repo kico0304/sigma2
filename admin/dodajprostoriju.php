@@ -69,7 +69,7 @@
                         <div class="container-fluid">
                             <div class="row addLocation">
                                 <form action="dodajprostoriju.php" method="post" autocomplete="off">
-                                    <div class="col-lg-12 formaFlex">
+                                    <div class="col-lg-12 formaFlex" style="visibility:hidden;">
                                         <label>ID lokacije:</label>
                                         <select id="lokacijaIdSelect" name="lokId">
                                             <option value=""></option>
@@ -87,7 +87,7 @@
                                         <?php } ?>
                                         </select>
                                     </div>
-                                    <div class="col-lg-12 formaFlex">
+                                    <div class="col-lg-12 formaFlex" style="visibility:hidden;">
                                         <label>ID sprata:</label>
                                         <select id="spratIdSelect" name="sprId">
                                             <option value=""></option>
@@ -105,7 +105,7 @@
                                         <?php } ?>
                                         </select>
                                     </div>
-                                    <div class="col-lg-12 formaFlex">
+                                    <div class="col-lg-12 formaFlex" style="visibility:hidden;">
                                         <label>ID stana:</label>
                                         <select id="stanIdSelect" name="stId">
                                             <option value=""></option>
