@@ -1,8 +1,8 @@
 <?php
 
-$database = "sigma2";
-$username = "root";
-$password = "";
+$database = "u605544755_sigma2";
+$username = "u605544755_sigma2";
+$password = "Milan@2022";
 
 try{
     $pdo = new PDO( 
