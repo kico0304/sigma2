@@ -1,6 +1,6 @@
 <html lang="en">
 
-    <!-- HEADER -->
+    <!-- HEAD -->
     <?php include 'includes/head.php'; ?>
 
 <body>

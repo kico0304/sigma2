@@ -1,0 +1,1 @@
+        <footer class="footer text-center">All Rights Reserved by Sigma2. Designed and Developed by Sigma2.</footer>
