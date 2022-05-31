@@ -50,6 +50,7 @@
                                 <th scope="col">Broj prostorija</th>
                                 <th scope="col">Kvadratura</th>
                                 <th scope="col">Tlocrt</th>
+                                <th scope="col">Prodan</th>
                                 <th style="text-align: center;" scope="col">Brisanje stana</th>
                             </tr>
                         </thead>
@@ -65,6 +66,18 @@
                                 <td><?php echo $stan['stan_brojprostorija_'] ?></td>
                                 <td><?php echo $stan['stan_kvadratura_'] ?></td>
                                 <td><?php echo $stan['stan_tlocrt_'] ?></td>
+                                <td>
+                                    <?php 
+                                        if($stan['stan_prodan_'] == 0) { ?>
+                                            <a href='prodajstan.php?id=<?php echo $stan['stan_id_'] ?>'>
+                                                NE
+                                            </a>
+                                        <?php }else{ ?>
+                                            <a href='prodajstan.php?id=<?php echo $stan['stan_id_'] ?>'>
+                                                DA
+                                            </a>
+                                        <?php }  ?>
+                                </td>
                                 <td style="text-align: center;"><a class="btn btn-danger btn-sm text-white" href="brisi.php?st=<?php echo $stan['stan_id_'] ?>">Briši</a></td>
                             </tr>
                             <?php } ?>

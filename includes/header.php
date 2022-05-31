@@ -40,7 +40,9 @@
 			   <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="projects.php" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lokacija <i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="projects.php">Naselje Ada</a></li>
+					<?php foreach ($data as $lokacija) { ?>
+						<li><a class="dropdown-item" href="projects.php?id=<?php echo $lokacija['lokacija_id'] ?>"><?php echo $lokacija['lokacija_naziv'] ?></a></li>
+					<?php } ?>
 
 					</ul>
 			  	</li>

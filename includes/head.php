@@ -23,5 +23,5 @@
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
-  <link href="assets/style.min.css" rel="stylesheet" />
+  <!-- <link href="assets/style.min.css" rel="stylesheet" /> -->
 </head>

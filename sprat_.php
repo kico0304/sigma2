@@ -6,16 +6,13 @@
     $lokacija = new Lokacije;
     $spratovi = new Spratovi;
     $stanovi = new Stanovi;
-    $prostorije = new Prostorije;
 
-    if(isset($_GET['lk']) AND isset($_GET['sp']) AND isset($_GET['id'])) {
+    if(isset($_GET['lk']) AND isset($_GET['id'])) {
         $lk = $_GET['lk'];
-        $sp = $_GET['sp'];
         $id = $_GET['id'];
         $data_ = $lokacija->fetch_data($lk);
-        $data__ = $spratovi->fetch_data_sprat($sp);
-        $data___ = $stanovi->fetch_data_stan($id);
-        $data = $prostorije->fetch_data_prostorija($id);
+        $data__ = $spratovi->fetch_data_sprat($id);
+        $data = $stanovi->fetch_data_sprat($id);
 ?>
 
     <html>
@@ -39,17 +36,16 @@
                 <h1>ID: <?php echo $data__['spratovi_id'] ?></h1>
                 <h1>NAZIV: <?php echo $data__['spratovi_naziv'] ?></h1>
             </div>
-            <!-- INFO O STANU -->
+            <!-- STANOVI NA SPRATU -->
             <div class="col-lg-12">
-                <h1>ID: <?php echo $data___['stan_id_'] ?></h1>
-                <h1>NAZIV: <?php echo $data___['stan_naziv_'] ?></h1>
-            </div>
-            <!-- PROSTORIJE STANA -->
-            <div class="col-lg-12">
-                <?php foreach ($data as $prostorije) { ?>
-                    <h4><?php echo $prostorije['prostorija_naziv__'] ?></h4>
-                    <p><?php echo $prostorije['prostorija_pod__'] ?></p>
-                    <p><?php echo $prostorije['prostorija_kvadratura__'] ?></p>
+                <?php foreach ($data as $stanovi) { ?>
+                    <p><?php echo $stanovi['stan_id_'] ?></p>
+                    <a href="stan.php?lk=<?php echo $data_['lokacija_id'] ?>&sp=<?php echo $data__['spratovi_id'] ?>&id=<?php echo $stanovi['stan_id_'] ?>">
+                        <h4><?php echo $stanovi['stan_naziv_'] ?></h4>
+                    </a>
+                    <p><?php echo $stanovi['stan_brojprostorija_'] ?></p>
+                    <p><?php echo $stanovi['stan_kvadratura_'] ?></p>
+                    <img src="<?php echo $stanovi['stan_tlocrt_'] ?>" />
                 <?php } ?>
             </div>
         </div>

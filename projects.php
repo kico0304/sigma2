@@ -1,3 +1,19 @@
+<?php 
+
+    include_once('includes/connection.php'); 
+    include_once('includes/lokacije.php');
+
+    $lokacija = new Lokacije;
+    $spratovi = new Spratovi;
+
+    if(isset($_GET['id'])) {
+        $id = $_GET['id'];
+		$data = $lokacija->fetch_all();
+        $data_ = $lokacija->fetch_data($id);
+        $data__ = $spratovi->fetch_all_spratovi($id);
+	}
+?>
+
 <html lang="en">
 
     <!-- HEADER -->
@@ -15,7 +31,7 @@
         <div class="block text-center">
 
           <h1 class="text-capitalize text-lg about-headline">Ponuda stanova</h1>
-          <span class="text-white">Lokacija -Naselje Ada</span>
+          <span class="text-white">Lokacija - <?php echo $data_['lokacija_naziv'] ?></span>
         </div>
       </div>
     </div>
@@ -30,22 +46,14 @@
         <div class="mainContainer parent h-center v-center">
                 <!--Begin container-->
                 <div class="container-location">
-                    <div class="container-box parent h-center v-center">
-                        <p>PRVI SPRAT</p>
-                    </div>
-
-                    <div class="container-box parent h-center v-center">
-                        <p>DRUGI SPRAT</p>
-                    </div>
-                    <div class="container-box parent h-center v-center">
-                        <p>TREĆI SPRAT</p>
-                    </div>
-                    <div class="container-box parent h-center v-center">
-                        <p>ČETVRTI SPRAT</p>
-                    </div>
-                    <div class="container-box parent h-center v-center">
-                        <p>PETI SPRAT</p>
-                    </div>
+					<?php foreach ($data__ as $spratovi) { ?>
+                    <a href="sprat.php?lk=<?php echo $data_['lokacija_id'] ?>&sp=<?php echo $spratovi['spratovi_id'] ?>">
+						<div class="container-box parent h-center v-center">
+                            <p><?php echo $spratovi['spratovi_naziv'] ?></p>
+                        </div>
+                        <h4></h4>
+                    </a>
+                	<?php } ?>
                 </div>
                 <!--End container-->
         </div>
