@@ -147,7 +147,7 @@
     <!--/ Container end -->
   </section>
 
-  <section class="clients">
+  <!-- <section class="clients">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7">
@@ -199,7 +199,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- FOOTER -->
   <?php include 'includes/footer.php'; ?>

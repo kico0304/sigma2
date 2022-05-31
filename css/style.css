@@ -104,7 +104,7 @@ input[type="tel"]:focus {
 
 .btn {
   display: inline-block;
-  font-size: 14px;
+  font-size: 15px;
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -437,9 +437,12 @@ a:focus {
 .dropdown-toggle::after {
   display: none;
 }
-
+.navbar {
+  padding: 0 1rem;
+}
 .navbar-brand {
-  margin-top: 10px;
+  margin:0 auto;
+  padding:0;
 }
 
 .dropdown .dropdown-menu {
@@ -1435,9 +1438,9 @@ a:focus {
   border: 1px solid #ff5f13;
   color: #ff5f13;
 }
-.img-fluid {
+/* .img-fluid {
   background: rgba(255, 255, 255, 0.8);
-}
+} */
 .widget-contact h6 {
   font-weight: 500;
   margin-bottom: 18px;
@@ -1725,6 +1728,111 @@ h2 {
 .about-page-box .row {
   align-items: center;
 }
+
+/* Lokacija */
+.parent {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row;
+  flex-flow: row;
+}
+
+.around {
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.h-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.v-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.clear {
+  clear: both;
+}
+
+.mainWrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin:0 auto;
+}
+
+.mainContainer {
+  width: 100%;
+  height:500px;
+  background-image: url('../images/imgLocation.jpg');
+  background-size: cover;
+  min-height: 550px;
+  background-position: top;
+  position: relative;
+    overflow: hidden;
+    z-index: 999;
+    opacity: 1;
+}
+
+.container-location{
+  max-width: 450px;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.container-box {
+  background-color: rgba(99,126,137, 0.7);
+  margin: 20px 0;
+  padding: 12px 0;
+  letter-spacing: 0px;
+  width: 100%;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 10px 11px -2px rgba(0,0,0,1);
+  -moz-box-shadow: 6px 10px 11px -2px rgba(0,0,0,1);
+  box-shadow: 6px 10px 11px -2px rgba(0,0,0,1);
+  cursor: pointer;
+}
+
+.container-box:hover {
+  transform: scale(1.1);
+}
+
+.container-box p {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 769px) {
+  .mainContainer {
+      height: auto;
+  }
+}
+
+
 
 /* Media */
 @media (max-width: 1400px) {

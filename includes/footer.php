@@ -12,7 +12,7 @@
 					<ul class="list-inline footer-socials mt-4">
 						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
 						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
+						<li class="list-inline-item"><a href="https://instagram.com/sigma2it?igshid=YmMyMTA2M2Y="><i class="icofont-instagram"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 							<i class="icofont-email mr-3"></i>
 							<span class="h6 mb-0">Email</span>
 						</div>
-						<h4 class="mt-2"><a href="tel:+23-345-67890">Support@email.com</a></h4>
+						<h4 class="mt-2"><a href="mailto:sigma2it@gmail.com">sigma2it@gmail.com</a></h4>
 					</div>
 
 					<div class="footer-contact-block">
@@ -50,7 +50,7 @@
 							<i class="icofont-support mr-3"></i>
 							<span class="h6 mb-0">Pon - Pet: 08:30 - 18:00</span>
 						</div>
-						<h4 class="mt-2"><a href="tel:+23-345-67890">+23-456-6588</a></h4>
+						<h4 class="mt-2"><a href="tel:+387 66 992 999">+387 66 992 999</a></h4>
 					</div>
 				</div>
 			</div>
