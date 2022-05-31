@@ -1,20 +1,47 @@
+<?php 
+
+    session_start();
+    include_once('../includes/connection.php'); ?>
+
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sigma2 administration panel</title>
-    <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/style.css" />
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                
-            </div>
-        </div>
-    </div>
-</body>
+    <!-- HEAD -->
+    <?php include 'includes/head.php'; ?>
+    <body>
+
+        <?php
+
+        if(isset($_SESSION['logged_in'])){
+            include 'admin.php';
+        } else{
+            if(isset($_POST['username'], $_POST['password'])){
+                $username = $_POST['username'];
+                $password = md5($_POST['password']);
+            
+                if(empty($username) or empty($password)){
+                    //error but do nothing
+                }else{
+                    $query = $pdo->prepare("SELECT * FROM users WHERE user_name = ? AND user_password = ?");
+
+                    $query->bindValue(1, $username);
+                    $query->bindValue(2, $password);
+
+                    $query->execute();
+
+                    $num = $query->rowCount();
+
+                    if($num == 1){
+                        $_SESSION['logged_in'] = true;
+                        header('Location: index.php');
+                        exit();
+                    }else{
+                        // nije se logovao
+                    }
+                }
+            }
+            include 'login.php';
+            }
+
+        ?>
+
+    </body>
 </html>
