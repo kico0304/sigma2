@@ -143,7 +143,7 @@
             $("#popup").empty();
             url = window.location.href;
             url = url.slice(0, url.lastIndexOf('&'));
-            //window.location.replace(url);
+            window.location.replace(url);
         })
 
     </script>
