@@ -15,11 +15,44 @@
         <div class="block text-center">
 
           <h1 class="text-capitalize text-lg about-headline">Ponuda stanova</h1>
-          <span class="text-white">Lokacija - Novi Borik</span>
+          <span class="text-white">Lokacija -Naselje Ada</span>
         </div>
       </div>
     </div>
   </div>
+</section>
+
+<section class="cta-section ">
+	<div class="container">
+ <!--Begin mainWrapper-->
+ <div class="mainWrapper">
+        <!--Begin mainContainer-->
+        <div class="mainContainer parent h-center v-center">
+                <!--Begin container-->
+                <div class="container-location">
+                    <div class="container-box parent h-center v-center">
+                        <p>PRVI SPRAT</p>
+                    </div>
+
+                    <div class="container-box parent h-center v-center">
+                        <p>DRUGI SPRAT</p>
+                    </div>
+                    <div class="container-box parent h-center v-center">
+                        <p>TREĆI SPRAT</p>
+                    </div>
+                    <div class="container-box parent h-center v-center">
+                        <p>ČETVRTI SPRAT</p>
+                    </div>
+                    <div class="container-box parent h-center v-center">
+                        <p>PETI SPRAT</p>
+                    </div>
+                </div>
+                <!--End container-->
+        </div>
+        <!--End mainContainer-->
+    </div>
+    <!--End mainWrapper-->
+	</div>
 </section>
 
 <section class="cta-section ">

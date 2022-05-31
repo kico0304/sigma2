@@ -4,15 +4,15 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
-						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@novena.com</a></li>
+						<li class="list-inline-item"><a href="mailto:sigma2it@gmail.comm"><i class="icofont-support-faq mr-2"></i>sigma2it@gmail.com</a></li>
 						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Bulevar vojvode Živojina Mišića </li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
 					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-						<a href="tel:+23-345-67890" >
-							<span>Call Now : </span>
-							<span class="h4">823-4565-13456</span>
+						<a href="tel:+387 66 992 999" >
+							<span>Pozovi nas: </span>
+							<span class="h4">+387 66 992 999</span>
 						</a>
 					</div>
 				</div>
@@ -35,7 +35,16 @@
 				<a class="nav-link" href="index.php">Početna</a>
 			  </li>
 			   <li class="nav-item"><a class="nav-link" href="about.php">O nama</a></li>
-			    <li class="nav-item"><a class="nav-link" href="projects.php">Ponuda stanova</a></li>
+
+
+			   <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="projects.php" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lokacija <i class="icofont-thin-down"></i></a>
+					<ul class="dropdown-menu" aria-labelledby="dropdown02">
+						<li><a class="dropdown-item" href="projects.php">Naselje Ada</a></li>
+
+					</ul>
+			  	</li>
+
 			   <li class="nav-item"><a class="nav-link" href="contact.php">Kontakt</a></li>
 			</ul>
 		  </div>

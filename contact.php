@@ -29,21 +29,21 @@
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-location-pin"></i>
                     <h5>Lokacija</h5>
-                     North Main Street,Brooklyn Australia
+                    Bulevar vojvode Živojina Mišića
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-live-support"></i>
                     <h5>Pozovite nas</h5>
-                     +823-4565-13456
+                    +387 66 992 999
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-support-faq"></i>
                     <h5>Email</h5>
-                     contact@mail.com
+                    sigma2it@gmail.com
                 </div>
             </div>
 
