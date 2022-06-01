@@ -77,7 +77,7 @@ class Stanovi {
         return $query->fetch();
     }
     //stanovi jednog sprata na jednoj lokaciji
-    public function fetch_data_sprat($id) {
+    public function fetch_data_stan_($id) {
         global $pdo;
 
         $query = $pdo->prepare("SELECT stanovi.* FROM spratovi JOIN stanovi ON spratovi.spratovi_id = stanovi.id_sprata_ WHERE spratovi.spratovi_id = ?");

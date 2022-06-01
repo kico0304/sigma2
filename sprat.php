@@ -14,7 +14,7 @@ if (isset($_GET['lk']) and isset($_GET['sp'])) {
     $data = $lokacija->fetch_all();
     $data_ = $lokacija->fetch_data($lk);
     $data__ = $spratovi->fetch_data_sprat($sp);
-    $data___ = $stanovi->fetch_data_sprat($sp);
+    $data___ = $stanovi->fetch_data_stan_($sp);
 }
 if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
     $lk = $_GET['lk'];
@@ -23,7 +23,8 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
     $data = $lokacija->fetch_all();
     $data_ = $lokacija->fetch_data($lk);
     $data__ = $spratovi->fetch_data_sprat($sp);
-    $data___ = $stanovi->fetch_data_sprat($sp);
+    $data___0 = $stanovi->fetch_data_stan($id);
+    $data___ = $stanovi->fetch_data_stan_($id);
     $data____ = $prostorije->fetch_data_prostorija($id);
 }
 ?>
@@ -228,36 +229,30 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
         </div>
     </section>
 
-
-    <div id="popup" style="width:100%;height:100%;position:absolute;top:0;left:0;background:#fff;z-index:999;"><?php
-    if(isset($_GET['lk']) AND isset($_GET['sp']) AND isset($_GET['id'])){
-        foreach ($data____ as $prostorije) { ?><h4><?php echo $prostorije['prostorija_naziv__'] ?></h4><p><?php echo $prostorije['prostorija_pod__'] ?></p><p><?php echo $prostorije['prostorija_kvadratura__'] ?></p><?php }
-    }
-    ?>
-<?php if(isset($_GET['lk']) AND isset($_GET['sp']) AND isset($_GET['id'])){ ?>
-
-<section class="cta-section ">
+    <?php if(isset($_GET['lk']) AND isset($_GET['sp']) AND isset($_GET['id'])){ ?>
+    <div id="popup" style="width:100%;height:100%;position:absolute;top:0;left:0;background:#fff;z-index:999;">
+    <section class="cta-section ">
         <div class="container">
             <div class="row first-row">
                 <div class="col-lg-8">
-                    <img src="images/flats/1.jpg" class="flat_img">
+                    <img src="<?php echo $data___0['stan_tlocrt_'] ?>" class="flat_img">
                 </div>
                 <div class="col-lg-4">
                     <div class="flat-wrapper">
-                        <h1><?php echo $data__['stan_naziv_'] ?> </h1>
+                        <h1><?php echo $data___0['stan_naziv_'] ?> </h1>
                         <div class="flat-box">
                             <div class="flat-description">
                                 <p>SPRAT</p>
-                                <p>1</p>
+                                <p><?php echo $data__['spratovi_naziv'] ?></p>
                             </div>
                             <div class="flat-description">
                                 <p>Broj prostorija</p>
-                                <p>5</p>
+                                <p><?php echo $data___0['stan_brojprostorija_'] ?></p>
                             </div>
 
                             <div class="flat-description">
-                                <p>Ukupna površina m</p>
-                                <p>539,45m</p>
+                                <p>Ukupna površina m<sup>2</sup></p>
+                                <p><?php echo $data___0['stan_kvadratura_'] ?> m<sup>2</sup></p>
                             </div>
 
                         </div>
@@ -271,43 +266,21 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
                             <table>
                                 <thead>
                                     <tr class="row-1">
-                                        <th class="column-1">Br</th>
+                                        <!-- <th class="column-1">Br</th> -->
                                         <th class="column-2">Prostorija</th>
                                         <th class="column-3">Pod</th>
                                         <th class="column-4">Površina.</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php foreach ($data____ as $prostorije) { ?>
                                     <tr class="row-2">
-                                        <td class="column-1">1</td>
-                                        <td class="column-2">DN SOBA I TRPEZARIJA</td>
-                                        <td class="column-3">PARKET</td>
-                                        <td class="column-4">18,23 m</td>
+                                        <!-- <td class="column-1">1</td> -->
+                                        <td class="column-2"><?php echo $prostorije['prostorija_naziv__'] ?></td>
+                                        <td class="column-3"><?php echo $prostorije['prostorija_pod__'] ?></td>
+                                        <td class="column-4"><?php echo $prostorije['prostorija_kvadratura__'] ?></td>
                                     </tr>
-                                    <tr class="row-3">
-                                        <td class="column-1">2</td>
-                                        <td class="column-2">KUHINJA</td>
-                                        <td class="column-3">KERAMIKA</td>
-                                        <td class="column-4">3,00 m</td>
-                                    </tr>
-                                    <tr class="row-4">
-                                        <td class="column-1">3</td>
-                                        <td class="column-2">KUPATILO</td>
-                                        <td class="column-3">KERAMIKA</td>
-                                        <td class="column-4">4,21 m</td>
-                                    </tr>
-                                    <tr class="row-5">
-                                        <td class="column-1">4</td>
-                                        <td class="column-2">HODNIK</td>
-                                        <td class="column-3">KERAMIKA</td>
-                                        <td class="column-4">3,02 m</td>
-                                    </tr>
-                                    <tr class="row-6">
-                                        <td class="column-1">5</td>
-                                        <td class="column-2">LOĐA</td>
-                                        <td class="column-3">KERAMIKA</td>
-                                        <td class="column-4">1,97 m</td>
-                                    </tr>
+                                    <?php } ?>
                                 </tbody>
                             </table>
                         </div>
@@ -315,20 +288,15 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
 
 
                     <div class="col-lg-8">
-                        <img src="images/flats/1_poz.jpg" class="flat_img">
+                        <img src="<?php echo $data___0['stan_tlocrt_'] ?>" class="flat_img">
                     </div>
 
                     </div>
 
             </div>
     </section>
-
-
+    </div>
     <?php } ?>
-
-
-
-</div>
 
     <!-- FOOTER -->
     <?php include 'includes/footer.php'; ?>
@@ -347,9 +315,9 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
         $("#closePopup").click(function(){
             $("#popup").hide();
             $("#popup").empty();
-            //url = window.location.href;
-            //url = url.slice(0, url.lastIndexOf('&'));
-            //window.location.replace(url);
+            url = window.location.href;
+            url = url.slice(0, url.lastIndexOf('&'));
+            window.location.replace(url);
         })
 
     </script>

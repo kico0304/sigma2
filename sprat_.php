@@ -12,7 +12,7 @@
         $id = $_GET['id'];
         $data_ = $lokacija->fetch_data($lk);
         $data__ = $spratovi->fetch_data_sprat($id);
-        $data = $stanovi->fetch_data_sprat($id);
+        $data = $stanovi->fetch_data_stan_($id);
 ?>
 
     <html>
