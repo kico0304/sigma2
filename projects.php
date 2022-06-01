@@ -39,7 +39,7 @@ if (isset($_GET['id'])) {
   </section>
 
   <section class="cta-section ">
-    <div class="container">
+    <div class="container location-container">
       <!--Begin mainWrapper-->
       <div class="mainWrapper">
         <!--Begin mainContainer-->
