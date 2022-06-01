@@ -11,7 +11,7 @@
 				<div class="col-lg-6">
 					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
 						<a href="tel:+387 66 992 999" >
-							<span>Pozovi nas: </span>
+							<span>Pozovite nas: </span>
 							<span class="h4">+387 66 992 999</span>
 						</a>
 					</div>

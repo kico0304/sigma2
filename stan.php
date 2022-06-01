@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-    include_once('includes/connection.php'); 
+    include_once('includes/connection.php');
     include_once('includes/lokacije.php');
 
     $lokacija = new Lokacije;
