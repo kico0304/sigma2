@@ -52,185 +52,45 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
         </div>
     </section>
 
-    <section class="cta-section ">
-	<div class="container">
- <!--Begin mainWrapper-->
- <div class="mainWrapper">
-        <!--Begin mainContainer-->
-        <div class="mainContainer parent h-center v-center">
-                <!--Begin container-->
-                <div class="container-location">
-                <?php foreach ($data___ as $stanovi) { ?>
-                    <p><?php echo $stanovi['stan_id_'] ?></p>
-                    <a href="sprat.php?lk=<?php echo $data_['lokacija_id'] ?>&sp=<?php echo $data__['spratovi_id'] ?>&id=<?php echo $stanovi['stan_id_'] ?>">
-                        <h4><?php echo $stanovi['stan_naziv_'] ?></h4>
-                    </a>
-                    <p><?php echo $stanovi['stan_brojprostorija_'] ?></p>
-                    <p><?php echo $stanovi['stan_kvadratura_'] ?></p>
-                    <!-- <img src="<?php //echo $stanovi['stan_tlocrt_'] ?>" /> -->
-                <?php } ?>
-                </div>
-                <!--End container-->
-        </div>
-        <!--End mainContainer-->
-    </div>
-    <!--End mainWrapper-->
-	</div>
-</section>
 
-    <section class="cta-section ">
+    <section class="cta-section">
         <div class="container">
 
             <!--Begin Wrapper-->
             <div class="Wrapper">
                 <!--Begin container_1-->
                 <div class="container_1">
+                <?php foreach ($data___ as $stanovi) { ?>
 
-
-                    <!--Begin container_1_mainBox-->
                     <div class="container_1_mainBox container_1_mainBox-none">
                         <!--Begin container_1_box_1-txt-->
                         <div class="container_1_box_1-txt">
                             <div class="box_1-txt box_1-txt-1">
-                                <h3>Stan1- <span>45 m2</span></h3>
+                                <h3><?php echo $stanovi['stan_naziv_'] ?> - <span><?php echo $stanovi['stan_kvadratura_'] ?> m<sup>2</sup></span></h3>
                             </div>
                         </div>
                         <!--End container_1_box_1-txt-->
 
                         <!--Begin container_1_box_1-txt-none-->
+                        <?php
+                        if($stanovi['stan_prodan_'] == 1) { ?>
+
                         <div class="container_1_box_1-txt-none">
                             <div class="box_1-txt-none">
                                 <h3>PRODANO</h3>
                             </div>
                         </div>
+                        <?php } ?>
                         <!--End container_1_box_1-txt-none-->
 
                         <!--Begin container_1_box_1-->
                         <div class="container_1_box_1">
-                            <img src="images/flats/1.jpg">
+                            <img src="<?php echo $stanovi['stan_tlocrt_'] ?>">
                         </div>
 
                     </div>
-                    <!--End container_1_mainBox-->
 
-
-
-                    <!--Begin container_1_mainBox-->
-                    <div class="container_1_mainBox">
-                        <!--Begin container_1_box_1-txt-->
-                        <div class="container_1_box_1-txt">
-                            <div class="box_1-txt">
-                                <h3>Stan1- <span>45 m2</span></h3>
-                            </div>
-                        </div>
-                        <!--End container_1_box_1-txt-->
-
-
-                        <!--Begin container_1_box_1-->
-                        <div class="container_1_box_1">
-                            <img src="images/flats/1.jpg">
-                        </div>
-                        <!--End container_1_box_1-->
-                    </div>
-                    <!--End container_1_mainBox-->
-
-
-
-                    <!--Begin container_1_mainBox-->
-                    <div class="container_1_mainBox">
-                        <!--Begin container_1_box_1-txt-->
-                        <div class="container_1_box_1-txt">
-                            <div class="box_1-txt">
-                                <h3>Stan1- <span>45 m2</span></h3>
-                            </div>
-                        </div>
-                        <!--End container_1_box_1-txt-->
-
-                        <!--Begin container_1_box_1-->
-                        <div class="container_1_box_1">
-                            <img src="images/flats/1.jpg">
-                        </div>
-                        <!--End container_1_box_1-->
-                    </div>
-                    <!--End container_1_mainBox-->
-
-
-                    <!--Begin container_1_mainBox-->
-                    <div class="container_1_mainBox">
-                        <!--Begin container_1_box_1-txt-->
-                        <div class="container_1_box_1-txt">
-                            <div class="box_1-txt">
-                                <h3>Stan1- <span>45 m2</span></h3>
-                            </div>
-                        </div>
-                        <!--End container_1_box_1-txt-->
-
-                        <!--Begin container_1_box_1-->
-                        <div class="container_1_box_1">
-                            <img src="images/flats/1.jpg">
-                        </div>
-                        <!--End container_1_box_1-->
-                    </div>
-                    <!--End container_1_mainBox-->
-
-
-                    <!--Begin container_1_mainBox-->
-                    <div class="container_1_mainBox">
-                        <!--Begin container_1_box_1-txt-->
-                        <div class="container_1_box_1-txt">
-                            <div class="box_1-txt">
-                                <h3>Stan1- <span>45 m2</span></h3>
-                            </div>
-                        </div>
-                        <!--End container_1_box_1-txt-->
-
-                        <!--Begin container_1_box_1-->
-                        <div class="container_1_box_1">
-                            <img src="images/flats/1.jpg">
-                        </div>
-                        <!--End container_1_box_1-->
-                    </div>
-                    <!--End container_1_mainBox-->
-
-
-                    <!--Begin container_1_mainBox-->
-                    <div class="container_1_mainBox">
-                        <!--Begin container_1_box_1-txt-->
-                        <div class="container_1_box_1-txt">
-                            <div class="box_1-txt">
-                                <h3>Stan1- <span>45 m2</span></h3>
-                            </div>
-                        </div>
-                        <!--End container_1_box_1-txt-->
-
-                        <!--Begin container_1_box_1-->
-                        <div class="container_1_box_1">
-                            <img src="images/flats/1.jpg">
-                        </div>
-                        <!--End container_1_box_1-->
-                    </div>
-                    <!--End container_1_mainBox-->
-
-
-                    <!--Begin container_1_mainBox-->
-                    <div class="container_1_mainBox">
-                        <!--Begin container_1_box_1-txt-->
-                        <div class="container_1_box_1-txt">
-                            <div class="box_1-txt">
-                                <h3>Stan1- <span>45 m2</span></h3>
-                            </div>
-                        </div>
-                        <!--End container_1_box_1-txt-->
-
-                        <!--Begin container_1_box_1-->
-                        <div class="container_1_box_1">
-                            <img src="images/flats/1.jpg">
-                        </div>
-                        <!--End container_1_box_1-->
-                    </div>
-                    <!--End container_1_mainBox-->
-
-
+                <?php } ?>
                 </div>
                 <!--End container_1-->
             </div>
