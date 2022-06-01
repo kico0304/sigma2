@@ -2002,6 +2002,15 @@ h2 {
     min-height: 350px;
   }
 }
+@media (max-width: 991px) {
+  .about-page-box {
+    margin-top: 2rem;
+  }
+  .about-block-item {
+    max-width:690px;
+    width: 100%;
+  }
+}
 
 @media (max-width: 959px) {
   .slider-area .hero__caption h1,
@@ -2066,6 +2075,16 @@ h2 {
 .location-container {
   padding:0;
 }
+.first-row {
+  flex-direction: column-reverse;
+  margin: 20px auto;
+}
+.colum-reverse-box {
+  margin: 0px auto;
+}
+.colum-reverse-box .col-lg-4, .colum-reverse-box .col-lg-8{
+padding:0;
+}
 }
 
 
@@ -2074,7 +2093,7 @@ h2 {
     min-height: 200px;
   }
   .slider-area .hero__caption .hero-text1 span {
-    font-size: 14px;
+    font-size: 18px;
   }
   .hero__caption {
     left: -6vw;
@@ -2163,10 +2182,11 @@ flex-direction: column-reverse;
     background: #fff !important;
   }
   .title-color, .section-sub-title, .widget h4, .title-color-about {
-    font-size: 30px;
+    font-size: 29px;
 }
 .subtitle-color-about {
-  font-size: 25px;
+  font-size: 22px;
+  line-height:23px;
 }
 .section {
   padding: 25px 0;
@@ -2186,7 +2206,7 @@ flex-direction: column-reverse;
 
 @media (max-width: 400px) {
   .text-lg {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .banner .block h1 {
@@ -2200,9 +2220,6 @@ flex-direction: column-reverse;
 }
 
 @media (max-width: 359px) {
-  .slider-area .hero__caption .hero-text1 span {
-    font-size: 13px;
-  }
 
   .slider-area .hero__caption h1,
   .stock-text h2 {
