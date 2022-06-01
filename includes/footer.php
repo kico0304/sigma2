@@ -7,12 +7,13 @@
 						<img src="images/logo.png" alt="" class="img-fluid">
 					</div>
 					<h4 class="text-capitalize mb-3">VAŠE NOVO MJESTO ZA ŽIVOT</h4>
-					<p class="info1">Nastojimo ostvariti partnersku i profesionalnu suradnju te vam ispuniti očekivanja. Spremni smo realizirati svaki projekt bez obzira na njegovu kompleksnost.</p>
+					<p class="info1">Trudimo se ostvariti profesionalnu i partnersku saradnju te ispuniti vaša očekivanja. U svakom trenuktu spremni smo realizovati svaki projekat bez obzira na njegovu kompleksnost.</p>
 
 					<ul class="list-inline footer-socials mt-4">
-						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://instagram.com/sigma2it?igshid=YmMyMTA2M2Y="><i class="icofont-instagram"></i></a></li>
+					<li class="list-inline-item"><a href="https://instagram.com/sigma2it?igshid=YmMyMTA2M2Y="><i class="icofont-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/Sigma2_bl"><i class="icofont-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/watch?v=HKPduXNZXmM"><i class="icofont-video"></i></a></li>
+
 					</ul>
 				</div>
 			</div>
@@ -26,7 +27,6 @@
 					<ul class="list-unstyled footer-menu lh-35">
 						<li><a href="index.php">Početna</a></li>
 						<li><a href="about.php">O nama</a></li>
-						<li><a href="#">Ponuda stanova </a></li>
 						<li><a href="contact.php">Kontakt</a></li>
 					</ul>
 				</div>

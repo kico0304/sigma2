@@ -1,8 +1,8 @@
-<?php 
+<?php
 
     header('Content-Type:text/html; charset=utf8mb4');
 
-    include_once('includes/connection.php'); 
+    include_once('includes/connection.php');
     include_once('includes/lokacije.php');
 
     $lokacija = new Lokacije;

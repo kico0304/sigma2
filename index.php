@@ -1,8 +1,8 @@
-<?php 
+<?php
 
     header('Content-Type:text/html; charset=utf8mb4');
 
-    include_once('includes/connection.php'); 
+    include_once('includes/connection.php');
     include_once('includes/lokacije.php');
 
     $lokacija = new Lokacije;
@@ -53,13 +53,13 @@
           <div class="about-content pl-4 mt-4 mt-lg-0">
             <h2 class="mt-4 title-color">Sigma2 je poverenje</h2>
 
-            <p class="mb-2 pera-top">Vodeći računa o svakom detalju, odabrali smo samo najbolje za buduće vlasnike</p>
+            <p class="mb-2 pera-top">Vodeći računa o svakom detalju, odabrali smo samo najbolje za buduće vlasnike stanova.</p>
 
-            <p class="mb-2">Naš osnovni cilj jeste da kupci budu zadovoljni kvalitetom naših objekata u svakom pogledu, i da kupovinom našeg stambenog ili poslovnog prostora žive i rade u okruženju koje ispunjava sve njihove zahteve.</p>
+            <p class="mb-2">Naš osnovni cilj naše firme je da kupci budu zadovoljni kvalitetom naših stambeni objekata u svakom pogledu, i da kupovinom našeg stambenog ili poslovnog prostora žive i rade u okruženju koje ispunjava sve njihove zahteve.</p>
 
-            <p class="mb-4">Pored odgovornog promišljanja o konkretnom projektu, Sigma2 se sa poštovanjem odnosi i prema sredini u kojoj posluje, dopunjujući je kao dobar domaćin i brižni komšija, kao karika koja je nedostajale određenoj infrastrukturi da bi sve došlo na svoje mesto.</p>
+            <p class="mb-4">Naša kompanija se sa poštovanjem odnosi prema sredini u kojoj posluje, dopunjujući je kao dobar domaćin i brižni komšija, kao karika koja je nedostajale određenoj infrastrukturi da bi sve došlo na svoje mesto.</p>
 
-            <p class="mb-4">Dobru lokaciju treba prepoznati. Često su u pitanju devastirane ili neizgrađene površine, koje inspirišu Sigma2 da kreira novi pogled na svet, kvalitetnom gradnjom nudeći siguran izbor novim vlasnicima stanova.</p>
+            <p class="mb-4">Tim iskusnih ljudi u našoj kompaniju uvjek prepozna dobru lokaciju za izgradnju stambenog objekta. Često su u pitanju neizgrađene površine ili devastirane, koje inspirišu našu kompaniju da kreira novi pogled na svjet, kvalitetnom gradnjom nudeći siguran izbor novim vlasnicima stanova.</p>
 
 
             <a href="contact.php" class="btn btn-main-2 btn-round-full btn-icon">Kontaktirajte nas<i class="icofont-simple-right ml-3"></i></a>
@@ -87,7 +87,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Odlične lokacije</h3>
-              <p>ovoljno blizu da vam sve bude nadohvat ruke, a dovoljno daleko da biste imali svoj mir i komfor - naši stanovi nalaze se u širem centru Beograda.</p>
+              <p>Lokacije naših stambenih objekata su dvoljno blizu da vam sve bude nadohvat ruke, a takođ i dovoljno daleko da biste imali svoj mir i komfor.</p>
             </div>
           </div><!-- Service 1 end -->
 
@@ -96,8 +96,8 @@
               <img loading="lazy" src="images/imgService04.png" alt="service-icon">
             </div>
             <div class="ts-service-box-info">
-              <h3 class="service-box-title">Kvalitetna gradnja</h3>
-              <p>Svaki kvadrat izgradjen je u skladu sa najsavremenijim standardima gradnje, energetskom efikasnošću i potrebama kupaca.</p>
+              <h3 class="service-box-title">Kvalitetna izgradnja</h3>
+              <p>Trudimo se da svaki kvadrat našeg stambenog objekta bude izgradjen u skladu sa najsavremenijim standardima gradnje, energetskom efikasnošću i potrebama naših kupaca.</p>
             </div>
           </div><!-- Service 2 end -->
 
@@ -107,7 +107,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Infrastrukturna podrška</h3>
-              <p>Po principu "ključ u ruke" za naše kupce i klijente gradimo stambene i poslove objekte, uz kvalifikovani i stručni kadar inženjera iz oblasti arhitekture, elektrotehnike i mašinstva.</p>
+              <p>Osnovni princip naše kompanije je "ključ u ruke" za naše kupce i klijente gradimo stambene i poslove objekte, uz kvalifikovani i stručni kadar inženjera iz oblasti arhitekture, elektrotehnike i mašinstva.</p>
             </div>
           </div><!-- Service 3 end -->
 
@@ -129,7 +129,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Siguran izbor</h3>
-              <p>Kupovina stana je kupovina poverenja koju je našoj kompaniji poklonilo više od hiljadu porodica za dve decenije rada.</p>
+              <p>Kupovina stambenog prostora je kupovina poverenja koju nudu naša kompanija.</p>
             </div>
           </div><!-- Service 4 end -->
 
@@ -139,7 +139,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Ulaganje u budućnost</h3>
-              <p>Kupovina stana je investicija koja uz našu asistenciju uvek donosi i kvalitet više i vrednost više.</p>
+              <p>Kupovina stambenog prostora je velika investicija koja uz našu asistenciju uvek donosi i kvalitet više i vrednost više.</p>
             </div>
           </div><!-- Service 5 end -->
 
@@ -149,7 +149,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Profesionalna usluga</h3>
-              <p>Savet, pomoć, asistencija i podrška koje pružamo našim kupcima i klijentima od samog početka saradnje su ključni za poverenje koje gradimo i potvrda našeg trajanja.</p>
+              <p>Tim iskusnih ljudi u našoj kompaniju uvjek vam je tu za savjet, pomoć, asistenciju i podršku koju pružamo našim kupcima i klijentima. Od samog početka saradnja je ključ za poverenje koje gradimo i potvrda našeg trajanja.</p>
             </div>
           </div><!-- Service 6 end -->
         </div><!-- Col end -->
