@@ -1963,6 +1963,11 @@ h2 {
   display: block;
 }
 /* end flat title */
+
+.about-img img {
+  max-width: 387px;
+  width:100%
+}
 @media (max-width: 991.98px){
 .navbar-brand {
 
@@ -2048,6 +2053,19 @@ h2 {
     font-size: 50px;
     padding: 20px 0 0 0;
 }
+.container-box {
+  margin: 10px 0;
+}
+.container-box p {
+
+  font-size: 20px;
+  line-height: 20px;
+
+  padding: 5px 0;
+}
+.location-container {
+  padding:0;
+}
 }
 
 
@@ -2075,13 +2093,24 @@ h2 {
   .ts-service-box-img img {
     max-width: 40px;
   }
+  .contact-block {
+    padding: 20px;
+}
+.text-md {
+  font-size: 2rem;
+}
 }
 
 
 @media (max-width: 575px) {
-  .page-title .block h1{
-  font-size: 50px;
-}
+  .page-title .block h1 {
+    font-size: 35px;
+
+  }
+  .page-title {
+    padding: 60px 0px 60px 0px;
+  }
+
 .text-lg, .headline-projects, .counter-stat span {
   font-size: 40px;
 }
@@ -2098,6 +2127,20 @@ h2 {
   padding-bottom: 0.3125rem;
   margin: 0 1rem 0 0;
   padding-left:0px;
+}
+.row-reverse {
+flex-direction: column-reverse;
+}
+.about-img {
+  margin: 15px auto 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.about {
+  padding: 25px 0 !important;
 }
 }
 
@@ -2132,6 +2175,12 @@ h2 {
   margin: 0 0 30px;
   font-size: 30px;
   line-height:30px;
+}
+.about-content {
+  margin-top: 0!important;
+}
+.about-content h2{
+  margin-top: 0!important;
 }
 }
 

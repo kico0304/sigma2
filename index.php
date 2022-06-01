@@ -41,7 +41,7 @@
   </section>
   <section class="section about">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-center row-reverse">
         <div class="col-lg-4 col-sm-6">
           <div class="about-img">
             <img src="images/imgAbout01.jpg" alt="" class="img-fluid">
