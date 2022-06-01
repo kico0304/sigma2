@@ -141,9 +141,9 @@
         $("#closePopup").click(function(){
             $("#popup").hide();
             $("#popup").empty();
-            url = window.location.href;
-            url = url.slice(0, url.lastIndexOf('&'));
-            window.location.replace(url);
+            //url = window.location.href;
+            //url = url.slice(0, url.lastIndexOf('&'));
+            //window.location.replace(url);
         })
 
     </script>
