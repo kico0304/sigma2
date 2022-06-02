@@ -111,4 +111,16 @@ class Prostorije {
     }
 }
 
+class Newsletter {
+    //sve prostorije
+    public function fetch_all_newsletter() {
+        global $pdo;
+
+        $query = $pdo->prepare("SELECT * FROM newsletter");
+        $query->execute();
+
+        return $query->fetchAll();
+    }
+}
+
 ?>

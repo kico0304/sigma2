@@ -29,6 +29,12 @@
                             <span class="hide-menu">Prostorije</span>
                         </a>
                     </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="newsletter_.php" aria-expanded="false">
+                            <i class="mdi mdi-at"></i>
+                            <span class="hide-menu">Newsletter</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>

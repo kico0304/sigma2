@@ -51,6 +51,15 @@
 
                 header('Location: prostorije_.php');
             }
+            if(isset($_GET['ns'])){
+                $ns = $_GET['ns'];
+
+                $query = $pdo->prepare('DELETE FROM newsletter WHERE newsletter_id = ?');
+                $query->bindValue(1, $ns);
+                $query->execute();
+
+                header('Location: newsletter_.php');
+            }
         } else{
             if(isset($_POST['username'], $_POST['password'])){
                 $username = $_POST['username'];
