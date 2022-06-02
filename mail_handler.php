@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST) && !empty($_POST)){
+if(isset($_POST) && !empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['phone']) && !empty($_POST['message'])){
 
 	$email_to =  'kico.jajcanin86@gmail.com';
 	$email_subject = "Poruka sa sajta";
