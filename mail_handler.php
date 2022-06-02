@@ -39,8 +39,10 @@ if(isset($_POST) && !empty($_POST)){
 	'X-Mailer: PHP/' . phpversion();
 	mail($email_to, $email_subject, $email_message, $headers);
 
-	$message = "Vaša poruka je poslata. Hvala!";
-	echo $message;
+	//$message = "Vaša poruka je poslata. Hvala!";
+	//echo $message;
+
+	header('Location: contact.php?msg="1"');
 
 }
 

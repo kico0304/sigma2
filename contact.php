@@ -143,5 +143,15 @@
 
     <!-- FOOTER -->
     <?php include 'includes/footer.php'; ?>
+
+    <script>
+    <?php if(isset($_GET['msg'])) { ?>
+    alert("Vaša poruka je poslana. Hvala.");
+    url = window.location.href;
+    url = url.slice(0, url.lastIndexOf('?'));
+    window.location.replace(url);
+    <?php } ?>
+  </script>
+
 </body>
 </html>
