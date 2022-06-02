@@ -230,8 +230,8 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
     </section>
 
     <?php if(isset($_GET['lk']) AND isset($_GET['sp']) AND isset($_GET['id'])){ ?>
-    <div id="popup" style="width:100%;height:100%;position:absolute;top:0;left:0;background:#fff;z-index:999;">
-    <section class="cta-section ">
+    <div id="popup" class="animate__animated animate__zoomIn">
+    <section class="cta-section noBorder">
         <div class="container">
             <div class="row first-row">
                 <div class="col-lg-8">
@@ -309,7 +309,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
             $("#popup").hide();
         }else {
             $("#popup").show();
-            $("#popup").prepend("<div id='closePopup'>x</div>");
+            $("#popup").prepend("<div id='closePopup'>✖</div>");
         }
 
         $("#closePopup").click(function(){

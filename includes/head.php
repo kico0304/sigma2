@@ -13,6 +13,7 @@
   <!-- Icon Font Css -->
   <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Main jQuery -->
   <script src="plugins/jquery/jquery.js"></script>
   <script src="plugins/counterup/jquery.counterup.min.js"></script>
