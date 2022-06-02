@@ -215,6 +215,15 @@
 
   <!-- FOOTER -->
   <?php include 'includes/footer.php'; ?>
+
+  <script>
+    <?php if(isset($_GET['newsletter'])) { ?>
+    alert("Hvala Vam što ste se pretplatili na naš newsletter.");
+    url = window.location.href;
+    url = url.slice(0, url.lastIndexOf('?'));
+    window.location.replace(url);
+    <?php } ?>
+  </script>
 </body>
 
 </html>

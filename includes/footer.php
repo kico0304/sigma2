@@ -64,9 +64,9 @@
 				</div>
 				<div class="col-lg-6">
 					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
-						<form action="#" class="subscribe">
-							<input type="text" class="form-control" placeholder="Vaš Email">
-							<a href="#" class="btn btn-main-2 btn-round-full">Pošalji</a>
+						<form action="addnewsletter.php" class="subscribe" method="post" autocomplete="off">
+							<input name="newsMail" type="text" class="form-control" placeholder="Vaš Email">
+							<input type="submit" class="btn btn-main-2 btn-round-full" value="Pošalji"/>
 						</form>
 					</div>
 				</div>
