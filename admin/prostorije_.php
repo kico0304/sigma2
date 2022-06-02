@@ -48,6 +48,7 @@
                                         <th scope="col">ID stana</th>
                                         <th scope="col">Naziv stana</th>
                                         <th scope="col">ID</th>
+                                        <th scope="col">Rbr</th>
                                         <th scope="col">Naziv</th>
                                         <th scope="col">Pod</th>
                                         <th scope="col">Kvadratura</th>
@@ -64,6 +65,7 @@
                                         <td><?php echo $prostorija['id_stana__'] ?></td>
                                         <td><?php echo $prostorija['naziv_stana__'] ?></td>
                                         <td><?php echo $prostorija['prostorija_id__'] ?></td>
+                                        <td><?php echo $prostorija['prostorija_rbr__'] ?></td>
                                         <td><?php echo $prostorija['prostorija_naziv__'] ?></td>
                                         <td><?php echo $prostorija['prostorija_pod__'] ?></td>
                                         <td><?php echo $prostorija['prostorija_kvadratura__'] ?></td>

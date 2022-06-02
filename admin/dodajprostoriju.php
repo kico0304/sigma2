@@ -26,13 +26,14 @@
         <?php
 
         if(isset($_SESSION['logged_in'])){
-            if(isset($_POST['submit'], $_POST['lokId'], $_POST['lokNaziv'], $_POST['sprId'], $_POST['sprNaziv'], $_POST['stId'], $_POST['stNaziv'], $_POST['prostorijaNaziv'], $_POST['prostorijaPod'], $_POST['prostorijaKvadratura'])){
+            if(isset($_POST['submit'], $_POST['lokId'], $_POST['lokNaziv'], $_POST['sprId'], $_POST['sprNaziv'], $_POST['stId'], $_POST['stNaziv'], $_POST['prostorijaRbr'], $_POST['prostorijaNaziv'], $_POST['prostorijaPod'], $_POST['prostorijaKvadratura'])){
                 $lokId = $_POST['lokId'];
                 $lokNaziv = $_POST['lokNaziv'];
                 $sprId = $_POST['sprId'];
                 $sprNaziv = $_POST['sprNaziv'];
                 $stId = $_POST['stId'];
                 $stNaziv = $_POST['stNaziv'];
+                $prostorijaRbr = $_POST['prostorijaRbr'];
                 $prostorijaNaziv = $_POST['prostorijaNaziv'];
                 $prostorijaPod = $_POST['prostorijaPod'];
                 $prostorijaKvadratura = $_POST['prostorijaKvadratura'];
@@ -40,16 +41,17 @@
                 if(empty($lokId) or empty($lokNaziv) or empty($sprId) or empty($sprNaziv) or empty($stId) or empty($stNaziv) or empty($prostorijaNaziv) or empty($prostorijaPod) or empty($prostorijaKvadratura)){
                     $error = 'Sva polja su obavezna!';
                 } else {
-                    $query = $pdo->prepare('INSERT INTO prostorije (id_lokacije__, naziv_lokacije__, id_sprata__, naziv_sprata__, id_stana__, naziv_stana__, prostorija_naziv__, prostorija_pod__, prostorija_kvadratura__) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)');
+                    $query = $pdo->prepare('INSERT INTO prostorije (id_lokacije__, naziv_lokacije__, id_sprata__, naziv_sprata__, id_stana__, naziv_stana__, prostorija_rbr__, prostorija_naziv__, prostorija_pod__, prostorija_kvadratura__) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)');
                     $query->bindValue(1, $lokId);
                     $query->bindValue(2, $lokNaziv);
                     $query->bindValue(3, $sprId);
                     $query->bindValue(4, $sprNaziv);
                     $query->bindValue(5, $stId);
                     $query->bindValue(6, $stNaziv);
-                    $query->bindValue(7, $prostorijaNaziv);
-                    $query->bindValue(8, $prostorijaPod);
-                    $query->bindValue(9, $prostorijaKvadratura);
+                    $query->bindValue(7, $prostorijaRbr);
+                    $query->bindValue(8, $prostorijaNaziv);
+                    $query->bindValue(9, $prostorijaPod);
+                    $query->bindValue(10, $prostorijaKvadratura);
         
                     $query->execute();
         
@@ -122,6 +124,10 @@
                                             <option sprId="<?php echo $stan['id_sprata_'] ?>" changeVal="<?php echo $stan['stan_id_'] ?>" value="<?php echo $stan['stan_naziv_'] ?>"><?php echo $stan['stan_naziv_'] ?></option>
                                         <?php } ?>
                                         </select>
+                                    </div>
+                                    <div class="col-lg-12 formaFlex">
+                                        <label>Redni broj prostorije:</label>
+                                        <input type="text" name="prostorijaRbr" placeholder="Unesi redni broj prostorije" />
                                     </div>
                                     <div class="col-lg-12 formaFlex">
                                         <label>Naziv prostorije:</label>

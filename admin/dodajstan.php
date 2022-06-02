@@ -23,7 +23,7 @@
         <?php
 
         if(isset($_SESSION['logged_in'])){
-            if(isset($_POST['submit'], $_POST['lokId'], $_POST['lokNaziv'], $_POST['sprId'], $_POST['sprNaziv'], $_POST['stanNaziv'], $_POST['stanBrojProstorija'], $_POST['stanKvadratura'], $_POST['stanTlocrt'])){
+            if(isset($_POST['submit'], $_POST['lokId'], $_POST['lokNaziv'], $_POST['sprId'], $_POST['sprNaziv'], $_POST['stanNaziv'], $_POST['stanBrojProstorija'], $_POST['stanKvadratura'], $_POST['stanTlocrt'], $_POST['stanPozicija'])){
                 $lokid = $_POST['lokId'];
                 $lokNaziv = $_POST['lokNaziv'];
                 $sprId = $_POST['sprId'];
@@ -32,11 +32,12 @@
                 $stanBrojProstorija = $_POST['stanBrojProstorija'];
                 $stanKvadratura = $_POST['stanKvadratura'];
                 $stanTlocrt = $_POST['stanTlocrt'];
+                $stanPozicija = $_POST['stanPozicija'];
                 
                 if(empty($lokid) or empty($lokNaziv) or empty($sprId) or empty($sprNaziv) or empty($stanNaziv) or empty($stanBrojProstorija) or empty($stanKvadratura) or empty($stanTlocrt)){
                     $error = 'Sva polja su obavezna!';
                 } else {
-                    $query = $pdo->prepare('INSERT INTO stanovi (id_lokacije_, naziv_lokacije_, id_sprata_, naziv_sprata_, stan_naziv_, stan_brojprostorija_, stan_kvadratura_, stan_tlocrt_) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
+                    $query = $pdo->prepare('INSERT INTO stanovi (id_lokacije_, naziv_lokacije_, id_sprata_, naziv_sprata_, stan_naziv_, stan_brojprostorija_, stan_kvadratura_, stan_tlocrt_, stan_pozicija_) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)');
                     $query->bindValue(1, $lokid);
                     $query->bindValue(2, $lokNaziv);
                     $query->bindValue(3, $sprId);
@@ -45,6 +46,7 @@
                     $query->bindValue(6, $stanBrojProstorija);
                     $query->bindValue(7, $stanKvadratura);
                     $query->bindValue(8, $stanTlocrt);
+                    $query->bindValue(9, $stanPozicija);
         
                     $query->execute();
         
@@ -115,6 +117,10 @@
                                     <div class="col-lg-12 formaFlex">
                                         <label>Tlocrt:</label>
                                         <input type="text" name="stanTlocrt" placeholder="Unesi tlocrt stana" />
+                                    </div>
+                                    <div class="col-lg-12 formaFlex">
+                                        <label>Pozicija:</label>
+                                        <input type="text" name="stanPozicija" placeholder="Unesi sliku pozicije stana" />
                                     </div>
                                     <div class="col-lg-12 formaFlex">
                                         <button type="submit" class="btn btn-success btn-sm text-white" name="submit">Dodaj</button>

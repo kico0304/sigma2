@@ -266,7 +266,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
                             <table>
                                 <thead>
                                     <tr class="row-1">
-                                        <!-- <th class="column-1">Br</th> -->
+                                        <th class="column-1">Br.</th>
                                         <th class="column-2">Prostorija</th>
                                         <th class="column-3">Pod</th>
                                         <th class="column-4">Površina.</th>
@@ -275,7 +275,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
                                 <tbody>
                                     <?php foreach ($data____ as $prostorije) { ?>
                                     <tr class="row-2">
-                                        <!-- <td class="column-1">1</td> -->
+                                        <td class="column-1"><?php echo $prostorije['prostorija_rbr__'] ?></td>
                                         <td class="column-2"><?php echo $prostorije['prostorija_naziv__'] ?></td>
                                         <td class="column-3"><?php echo $prostorije['prostorija_pod__'] ?></td>
                                         <td class="column-4"><?php echo $prostorije['prostorija_kvadratura__'] ?></td>
@@ -288,7 +288,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
 
 
                     <div class="col-lg-8">
-                        <img src="<?php echo $data___0['stan_tlocrt_'] ?>" class="flat_img">
+                        <img src="<?php echo $data___0['stan_pozicija_'] ?>" class="flat_img">
                     </div>
 
                     </div>
