@@ -2275,6 +2275,7 @@ flex-direction: column-reverse;
   left:0;
   background:#030f27;
   z-index:999;
+  overflow: auto;
 }
 
 #closePopup{
@@ -2287,4 +2288,24 @@ flex-direction: column-reverse;
 
 .noBorder{
   border: none;
+}
+
+/* mobile menu fix */
+
+@media screen and (max-width: 991px){
+  .dropdown .dropdown-menu{
+    position: unset;
+    height: 0;
+    border: none;
+  }
+  .dropdown .dropdown-menu > li {
+    visibility:hidden;
+  }
+  .dropdown .dropdown-menu.show{
+    height:auto;
+  }
+
+  .dropdown .dropdown-menu.show > li {
+    visibility:visible;
+  }
 }
