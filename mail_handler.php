@@ -44,6 +44,8 @@ if(isset($_POST) && !empty($_POST['name']) && !empty($_POST['email']) && !empty(
 
 	header('Location: contact.php?msg="1"');
 
+} else {
+	header('Location: contact.php');
 }
 
 ?>
