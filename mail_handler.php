@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST) && !empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['phone']) && !empty($_POST['message'])){
-
+	print_r("1");
 	$email_to =  'kico.jajcanin86@gmail.com';
 	$email_subject = "Poruka sa sajta";
 	//$getCountry = $_POST['disCountry'];
@@ -45,6 +45,7 @@ if(isset($_POST) && !empty($_POST['name']) && !empty($_POST['email']) && !empty(
 	header('Location: contact.php?msg="1"');
 
 } else {
+	print_r("2");
 	header('Location: contact.php');
 }
 
