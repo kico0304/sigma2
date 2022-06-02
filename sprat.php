@@ -234,10 +234,10 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
     <section class="cta-section noBorder">
         <div class="container">
             <div class="row first-row">
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <img src="<?php echo $data___0['stan_tlocrt_'] ?>" class="flat_img">
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="flat-wrapper">
                         <h1><?php echo $data___0['stan_naziv_'] ?> </h1>
                         <div class="flat-box">
@@ -261,7 +261,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
                 </div>
                 </div>
                 <div class="row colum-reverse-box">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="flat-box">
                             <table>
                                 <thead>
@@ -275,10 +275,10 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
                                 <tbody>
                                     <?php foreach ($data____ as $prostorije) { ?>
                                     <tr class="row-2">
-                                        <td class="column-1"><?php echo $prostorije['prostorija_rbr__'] ?></td>
+                                        <td class="column-1"><?php echo $prostorije['prostorija_rbr__'] ?>.</td>
                                         <td class="column-2"><?php echo $prostorije['prostorija_naziv__'] ?></td>
                                         <td class="column-3"><?php echo $prostorije['prostorija_pod__'] ?></td>
-                                        <td class="column-4"><?php echo $prostorije['prostorija_kvadratura__'] ?></td>
+                                        <td class="column-4"><?php echo $prostorije['prostorija_kvadratura__'] ?> m<sup>2</sup></td>
                                     </tr>
                                     <?php } ?>
                                 </tbody>
@@ -287,7 +287,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
                     </div>
 
 
-                    <div class="col-lg-8">
+                    <div class="col-lg-6">
                         <img src="<?php echo $data___0['stan_pozicija_'] ?>" class="flat_img">
                     </div>
 
