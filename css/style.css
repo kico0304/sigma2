@@ -73,11 +73,11 @@ p {
 input[type="email"],
 input[type="password"],
 input[type="text"],
-input[type="tel"] {
+input[type="tel"], textarea {
   box-shadow: none;
   height: 45px;
   outline: none;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 input[type="email"]:focus,
