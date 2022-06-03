@@ -47,6 +47,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
 
                         <h1 class="text-capitalize text-lg about-headline">Ponuda stanova</h1>
                         <span class="text-white">Lokacija - <?php echo $data_['lokacija_naziv'] ?></span>
+
                     </div>
                 </div>
             </div>

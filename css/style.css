@@ -1863,9 +1863,20 @@ h2 {
   top: 0;
   left: 0;
 }
+.container_1_box_1-txt::after {
+  content:'';
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background:rgba(255, 255, 255, 0.57);
+}
 
 .container_1_box_1-txt h3 {
   color: #ff5f13;
+  position:relative;
+  z-index: 1;
 }
 
 .box_1-txt{
