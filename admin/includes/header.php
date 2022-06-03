@@ -5,9 +5,9 @@
             <!-- LOGO -->
             <a class="navbar-brand opacited" href="index.php">
             <b class="logo-icon ps-2">
-                <img src="../images/logo-small.png" alt="homepage" class="light-logo" width="25" />
+                <img src="../images/logo-small.png" alt="homepage" class="light-logo" width="80" />
             </b>
-            <span class="logo-text ms-2">Sigma2 Admin</span>
+            <span class="logo-text ms-2">Admin</span>
             </a>
             <!-- MOBILE TOGGLE -->
             <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
