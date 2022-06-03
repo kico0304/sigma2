@@ -30,7 +30,7 @@
 						<li><a href="contact.php">Kontakt</a></li>
 						<li class="box_pdf">
 
-							<a href="includes/Katalog.pdf" target="_blank">Pogledaj katalog</a>
+							<a href="includes/Katalog.pdf" target="_blank">Pogledajte katalog</a>
 
 						</li>
 					</ul>

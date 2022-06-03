@@ -62,6 +62,7 @@ if (isset($_GET['id'])) {
       <!--End mainWrapper-->
     </div>
   </section>
+
   <section class="cta-section ">
     <div class="container">
       <div class="row">
@@ -78,11 +79,35 @@ if (isset($_GET['id'])) {
         </div>
 
         <div class="col-lg-6">
-          ubaciti mapu lokacije
+          Lokacija
         </div>
       </div>
     </div>
   </section>
+
+  <section class="cta-section slider-box">
+    <div class="container">
+      <h3>Naselje Ada - novi koncept življenja</h3>
+      <div class="wrapper">
+        <div class="slider-wrap">
+          <div id="slider" class="slider">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+          </div>
+        </div>
+        <div class="btn-wrap">
+          <i id="prev" class="material-icons btn">&#60;</i>
+          <i id="next" class="material-icons btn">&#62;</i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <section class="cta-section ">
     <div class="container">
       <h3 class="headline-projects">Tačke interesa</h3>
@@ -123,6 +148,37 @@ if (isset($_GET['id'])) {
     </div>
   </section>
 
+
+  <script>
+    var prev = document.getElementById('prev');
+    var next = document.getElementById('next');
+    var slider = document.getElementById('slider');
+    var total = 0,
+      step = 100;
+
+    prev.addEventListener('click', slide);
+    next.addEventListener('click', slide);
+
+    function slide() {
+      if (this.getAttribute('id') == 'prev') {
+        if (total == 0) {
+          total = -600;
+          slider.style.left = total + '%';
+        } else {
+          total += step;
+          slider.style.left = total + '%';
+        }
+      } else {
+        if (total == -600) {
+          total = 0;
+          slider.style.left = total;
+        } else {
+          total -= step;
+          slider.style.left = total + '%';
+        }
+      }
+    }
+  </script>
   <!-- FOOTER -->
   <?php include 'includes/footer.php'; ?>
 </body>
