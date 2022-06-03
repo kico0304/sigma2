@@ -15249,3 +15249,7 @@ a.opacited>span{
 .opacited2:hover{
     opacity: 1;
 }
+
+.table *{
+	font-size: 16px!important;
+}
