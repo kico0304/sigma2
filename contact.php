@@ -70,7 +70,7 @@
                 <div class="section-title text-center">
                     <h2 class="text-md mb-2">Kontaktirajte nas</h2>
                     <div class="divider mx-auto my-4"></div>
-                    <p class="mb-5">Za sve informacije u vezi projekta I kupovine stanova, kontaktirajte naš prodajni tim</p>
+                    <p class="mb-5">Za sve informacije u vezi projekta i kupovine stanova, kontaktirajte naš prodajni tim</p>
                 </div>
             </div>
         </div>
