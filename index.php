@@ -51,13 +51,13 @@
 
         <div class="col-lg-8 col-sm-6">
           <div class="about-content pl-4 mt-4 mt-lg-0">
-            <h2 class="mt-4 title-color">Sigma2 je poverenje</h2>
+            <h2 class="mt-4 title-color">Sigma2 je povjerenje</h2>
 
             <p class="mb-2 pera-top">Vodeći računa o svakom detalju, odabrali smo samo najbolje za buduće vlasnike stanova.</p>
 
-            <p class="mb-2">Naš osnovni cilj naše firme je da kupci budu zadovoljni kvalitetom naših stambeni objekata u svakom pogledu, i da kupovinom našeg stambenog ili poslovnog prostora žive i rade u okruženju koje ispunjava sve njihove zahteve.</p>
+            <p class="mb-2">Naš osnovni cilj naše firme je da kupci budu zadovoljni kvalitetom naših stambenih objekata u svakom pogledu, i da kupovinom našeg stambenog ili poslovnog prostora žive i rade u okruženju koje ispunjava sve njihove zahtjeve.</p>
 
-            <p class="mb-4">Naša kompanija se sa poštovanjem odnosi prema sredini u kojoj posluje, dopunjujući je kao dobar domaćin i brižni komšija, kao karika koja je nedostajale određenoj infrastrukturi da bi sve došlo na svoje mesto.</p>
+            <p class="mb-4">Naša kompanija se sa poštovanjem odnosi prema sredini u kojoj posluje, dopunjujući je kao dobar domaćin i brižni komšija, kao karika koja je nedostajale određenoj infrastrukturi da bi sve došlo na svoje mjesto.</p>
 
             <p class="mb-4">Tim iskusnih ljudi u našoj kompaniju uvjek prepozna dobru lokaciju za izgradnju stambenog objekta. Često su u pitanju neizgrađene površine ili devastirane, koje inspirišu našu kompaniju da kreira novi pogled na svjet, kvalitetnom gradnjom nudeći siguran izbor novim vlasnicima stanova.</p>
 
@@ -97,7 +97,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Kvalitetna izgradnja</h3>
-              <p>Trudimo se da svaki kvadrat našeg stambenog objekta bude izgradjen u skladu sa najsavremenijim standardima gradnje, energetskom efikasnošću i potrebama naših kupaca.</p>
+              <p>Trudimo se da svaki kvadrat našeg stambenog objekta bude izgrađen u skladu sa najsavremenijim standardima gradnje, energetskom efikasnošću i potrebama naših kupaca.</p>
             </div>
           </div><!-- Service 2 end -->
 
@@ -139,7 +139,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Ulaganje u budućnost</h3>
-              <p>Kupovina stambenog prostora je velika investicija koja uz našu asistenciju uvek donosi i kvalitet više i vrednost više.</p>
+              <p>Kupovina stambenog prostora je velika investicija koja uz našu asistenciju uvek donosi kvalitet više i vrjednost više.</p>
             </div>
           </div><!-- Service 5 end -->
 
@@ -149,7 +149,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Profesionalna usluga</h3>
-              <p>Tim iskusnih ljudi u našoj kompaniju uvjek vam je tu za savjet, pomoć, asistenciju i podršku koju pružamo našim kupcima i klijentima. Od samog početka saradnja je ključ za poverenje koje gradimo i potvrda našeg trajanja.</p>
+              <p>Tim iskusnih ljudi u našoj kompaniju uvjek vam je tu za savjet, pomoć, asistenciju i podršku koju pružamo našim kupcima i klijentima. Od samog početka saradnja je ključ za povjerenje koje gradimo i potvrdu našeg trajanja.</p>
             </div>
           </div><!-- Service 6 end -->
         </div><!-- Col end -->

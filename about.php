@@ -45,7 +45,7 @@
 			</div>
 			<div class="col-lg-6">
 				<p>Sigam2 je stabilan i pouzdan partner, prepoznat po kvalitetu gradnje i poštovanju dogovora, koji klijentima pruža viši kvalitet života.</p>
-        <p>Osnovna misijanaše kompanije je izgradnja kvalitetnih stanova izgrađenih u skladu s visokim stručnim normama, poželjnih i ugodnih za življenje. Kroz saranju s mnogobrojnim izvođačima i kooperantima, instalaterima, privrednicima iz raznih područja, nastojimo opravdati povjerenje našuhkKupaca i nastaviti trend koji smo postigli na našim završenim projektima.</p>
+        <p>Osnovna misija naše kompanije je izgradnja kvalitetnih stanova izgrađenih u skladu sa visokim stručnim normama, poželjnih i ugodnih za življenje. Kroz saradnju s mnogobrojnim izvođačima i kooperantima, instalaterima, privrednicima iz raznih područja, nastojimo opravdati povjerenje našuh kupaca i nastaviti trend koji smo postigli na našim završenim projektima.</p>
 
 			</div>
 		</div>
@@ -103,7 +103,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Zadovoljni klijenti</h3>
-              <p>Zadovoljni klijenti nas su cilj.A ciljeve ostvarujemo na obostrano zadovoljstvo. Zadovoljni klijenti su naša najbolja reklama.</p>
+              <p>Zadovoljni klijenti naš su cil. A ciljeve ostvarujemo na obostrano zadovoljstvo. Zadovoljni klijenti su naša najbolja reklama.</p>
             </div>
           </div>
 			</div>
