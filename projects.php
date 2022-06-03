@@ -62,7 +62,27 @@ if (isset($_GET['id'])) {
       <!--End mainWrapper-->
     </div>
   </section>
+  <section class="cta-section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 location_box">
+          <h3>Naselje Ada - informacije o stambenom objektu</h3>
 
+          <h5>Višeporodični stambeni objekat u naselju Ada sastoji se 5 spratova, na svakom spratu 7 stanova kvadrature od 44m<sup>2</sup> do 85m<sup>2</sup></h5>
+
+          <p class="mb-2">Ulica Bulevar vojvode Živojina Mišića, u naselju Ada je zahvaljujući novim investicijama postala pravo urbano stambeno naselje. S obzirom na veliki broj objekata raznih namjena u blizini, ovanaselje privlači sve veću pažnju kako pojedinaca, tako i porodica.</p>
+
+          <p class="mb-2">Naš stambeno-poslovni objekat u naselju Ada nalazi se samo na 20 minuta laganog hoda od samog centra Banjaluke. U neposrednoj blizini našeg stambenog objekta nalazi se je rijeka Vrbas, osnovnih škola u izgradnji, vrtić, kao i univerzitet </p>
+
+          <p class="mb-2">Sama lokacija našeg stambenog objekta pruža budućim stanarima komfor i mir od gradske buke i gužve, ali takođe dovoljno blizinu glavnih institucija i objekata raznih namjena. Ovakvo okruženje predstavlja idealan ambijent za ujedno miran i dinamičan život u velegradu.</p>
+        </div>
+
+        <div class="col-lg-6">
+          ubaciti mapu lokacije
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="cta-section ">
     <div class="container">
       <h3 class="headline-projects">Tačke interesa</h3>

@@ -101,95 +101,6 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
         </div>
     </section>
 
-    <!-- <section class="cta-section ">
-        <div class="container">
-            <div class="row first-row">
-                <div class="col-lg-8">
-                    <img src="images/flats/1.jpg" class="flat_img">
-                </div>
-                <div class="col-lg-4">
-                    <div class="flat-wrapper">
-                        <h1>STAN <span>6</span></h1>
-                        <div class="flat-box">
-                            <div class="flat-description">
-                                <p>SPRAT </p>
-                                <p>1</p>
-                            </div>
-                            <div class="flat-description">
-                                <p>Broj prostorija</p>
-                                <p>5</p>
-                            </div>
-
-                            <div class="flat-description">
-                                <p>Ukupna površina m</p>
-                                <p>539,45m</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-                </div>
-                <div class="row colum-reverse-box">
-                    <div class="col-lg-4">
-                        <div class="flat-box">
-                            <table>
-                                <thead>
-                                    <tr class="row-1">
-                                        <th class="column-1">Br</th>
-                                        <th class="column-2">Prostorija</th>
-                                        <th class="column-3">Pod</th>
-                                        <th class="column-4">Površina.</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="row-2">
-                                        <td class="column-1">1</td>
-                                        <td class="column-2">DN SOBA I TRPEZARIJA</td>
-                                        <td class="column-3">PARKET</td>
-                                        <td class="column-4">18,23 m</td>
-                                    </tr>
-                                    <tr class="row-3">
-                                        <td class="column-1">2</td>
-                                        <td class="column-2">KUHINJA</td>
-                                        <td class="column-3">KERAMIKA</td>
-                                        <td class="column-4">3,00 m</td>
-                                    </tr>
-                                    <tr class="row-4">
-                                        <td class="column-1">3</td>
-                                        <td class="column-2">KUPATILO</td>
-                                        <td class="column-3">KERAMIKA</td>
-                                        <td class="column-4">4,21 m</td>
-                                    </tr>
-                                    <tr class="row-5">
-                                        <td class="column-1">4</td>
-                                        <td class="column-2">HODNIK</td>
-                                        <td class="column-3">KERAMIKA</td>
-                                        <td class="column-4">3,02 m</td>
-                                    </tr>
-                                    <tr class="row-6">
-                                        <td class="column-1">5</td>
-                                        <td class="column-2">LOĐA</td>
-                                        <td class="column-3">KERAMIKA</td>
-                                        <td class="column-4">1,97 m</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-8">
-                        <img src="images/flats/1_poz.jpg" class="flat_img">
-                    </div>
-
-                    </div>
-
-            </div>
-    </section> -->
-
-
-
     <section class="cta-section ">
         <div class="container">
             <h3 class="headline-projects">Tačke interesa</h3>
@@ -206,7 +117,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="counter-stat">
                             <i class="icofont-flag"></i>
-                            <span class="h3">800</span>m
+                            <span class="h3">50</span>m
                             <p>Škola</p>
                         </div>
                     </div>

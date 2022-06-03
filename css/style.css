@@ -1983,7 +1983,16 @@ h2 {
 tr {
   font-size: 21px;
 }
+.box_pdf a {
+text-decoration: underline;
+}
+.location_box {
+  padding:15px 0;
+}
+.location_box h3,.location_box p, .location_box h5{
+  color: #fff;
 
+}
 
 @media (max-width: 991.98px){
 .navbar-brand {
@@ -2198,6 +2207,14 @@ flex-direction: column-reverse;
 }
 .about {
   padding: 25px 0 !important;
+}
+.location_box {
+  padding:15px;
+}
+.location_box h3{font-size: 1.3rem;}
+.location_box h5{font-size: 1.1rem;}
+.location_box p{font-size: .9rem;
+  line-height: 23px;
 }
 }
 

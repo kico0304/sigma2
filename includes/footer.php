@@ -28,6 +28,11 @@
 						<li><a href="index.php">Početna</a></li>
 						<li><a href="about.php">O nama</a></li>
 						<li><a href="contact.php">Kontakt</a></li>
+						<li class="box_pdf">
+
+							<a href="includes/Katalog.pdf" target="_blank">Pogledaj katalog</a>
+
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -48,7 +53,7 @@
 					<div class="footer-contact-block">
 						<div class="icon d-flex align-items-center">
 							<i class="icofont-support mr-3"></i>
-							<span class="h6 mb-0">Pon - Pet: 08:30 - 18:00</span>
+							<span class="h6 mb-0">Pon - Sub: 08 - 16:00</span>
 						</div>
 						<h4 class="mt-2"><a href="tel:+387 66 992 999">+387 66 992 999</a></h4>
 					</div>

@@ -5,7 +5,7 @@
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
 						<li class="list-inline-item"><a href="mailto:sigma2it@gmail.comm"><i class="icofont-support-faq mr-2"></i>sigma2it@gmail.com</a></li>
-						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Bulevar vojvode Živojina Mišića </li>
+						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Branka Ćopića 15/4</li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
