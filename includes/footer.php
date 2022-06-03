@@ -10,9 +10,9 @@
 					<p class="info1">Trudimo se ostvariti profesionalnu i partnersku saradnju te ispuniti vaša očekivanja. U svakom trenuktu spremni smo realizovati svaki projekat bez obzira na njegovu kompleksnost.</p>
 
 					<ul class="list-inline footer-socials mt-4">
-					<li class="list-inline-item"><a href="https://instagram.com/sigma2it?igshid=YmMyMTA2M2Y="><i class="icofont-instagram"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/Sigma2_bl"><i class="icofont-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.youtube.com/watch?v=HKPduXNZXmM"><i class="icofont-video"></i></a></li>
+					<li class="list-inline-item"><a href="https://instagram.com/sigma2it?igshid=YmMyMTA2M2Y=" target="_blank"><i class="icofont-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/Sigma2_bl" target="_blank"><i class="icofont-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/watch?v=HKPduXNZXmM" target="_blank"><i class="icofont-video"></i></a></li>
 
 					</ul>
 				</div>
