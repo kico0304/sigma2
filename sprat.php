@@ -15,6 +15,7 @@ if (isset($_GET['lk']) and isset($_GET['sp'])) {
     $data_ = $lokacija->fetch_data($lk);
     $data__ = $spratovi->fetch_data_sprat($sp);
     $data___ = $stanovi->fetch_data_stan_($sp);
+    $data_____ = $spratovi->fetch_all_sprat();
 }
 if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
     $lk = $_GET['lk'];
@@ -26,6 +27,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
     $data___0 = $stanovi->fetch_data_stan($id);
     $data___ = $stanovi->fetch_data_stan_($id);
     $data____ = $prostorije->fetch_data_prostorija($id);
+    $data_____ = $spratovi->fetch_all_sprat();
 }
 ?>
 
@@ -44,9 +46,131 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-
                         <h1 class="text-capitalize text-lg about-headline">Ponuda stanova</h1>
                         <span class="text-white">Lokacija - <?php echo $data_['lokacija_naziv'] ?></span>
+
+                        <?php 
+                        //prazan niz spratova
+                        $nizSpratova = [];
+                        //punimo niz spratova
+                        foreach ($data_____ as $spratoviNiz) {
+                            array_push($nizSpratova, $spratoviNiz['spratovi_id']);
+                        }
+                        //tražimo maksimum iz niza
+                        $maxSpratova = max($nizSpratova);
+                        //tražimo minimum iz niza
+                        $minSpratova = min($nizSpratova);
+                        //upisujemo trenutni sprat u varijablu
+                        $nowSpratova = $_GET['sp'];
+                        //upisujemo trenutnu lokaciju u varijablu
+                        $nowLokacija = $_GET['lk'];
+
+                        if($nowSpratova == $maxSpratova){
+                            $spratNize = $spratovi->fetch_data_sprat($sp-1);
+                        ?>
+                            <!-- desktop -->
+                            <div class="container desktopNavSpratovi">
+                                <div class="row navSpratovi">
+                                    <div class="col-lg-5 alignRight">
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova - 1) ?>">
+                                            <p>≪ <?php echo $spratNize['spratovi_naziv'] ?></p>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 mainSpratNow">
+                                        <p><?php echo $data__['spratovi_naziv'] ?></p>
+                                    </div>
+                                    <div class="col-lg-5"></div>
+                                </div>
+                            </div>
+                            <!-- mobile -->
+                            <div class="container mobileNavSpratovi">
+                                <div class="row navSpratovi">
+                                    <div class="col-lg-12 alignRight">
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova - 1) ?>">
+                                            <p>≪</p>
+                                        </a>
+                                        <p><?php echo $data__['spratovi_naziv'] ?></p>
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova + 1) ?>" style="visibility:hidden">
+                                            <p>≫</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php
+                        }elseif($nowSpratova == $minSpratova){
+                            $spratVise = $spratovi->fetch_data_sprat($sp+1);
+                        ?>
+                            <!-- desktop -->
+                            <div class="container desktopNavSpratovi">
+                                <div class="row navSpratovi">
+                                    <div class="col-lg-5"></div>
+                                    <div class="col-lg-2 mainSpratNow">
+                                        <p><?php echo $data__['spratovi_naziv'] ?></p>
+                                    </div>
+                                    <div class="col-lg-54 alignLeft">
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova + 1) ?>">
+                                            <p><?php echo $spratVise['spratovi_naziv'] ?> ≫</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- mobile -->
+                            <div class="container mobileNavSpratovi">
+                                <div class="row navSpratovi">
+                                    <div class="col-lg-12">
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova - 1) ?>"  style="visibility:hidden">
+                                            <p>≪</p>
+                                        </a>
+                                        <p><?php echo $data__['spratovi_naziv'] ?></p>
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova + 1) ?>">
+                                            <p>≫</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <?php
+                        }else{
+                            $spratNize = $spratovi->fetch_data_sprat($sp-1);
+                            $spratVise = $spratovi->fetch_data_sprat($sp+1);
+                        ?>
+                            <!-- desktop -->
+                            <div class="container desktopNavSpratovi">
+                                <div class="row navSpratovi">
+                                    <div class="col-lg-5 alignRight">
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova - 1) ?>">
+                                            <p>≪ <?php echo $spratNize['spratovi_naziv'] ?></p>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 mainSpratNow">
+                                        <p><?php echo $data__['spratovi_naziv'] ?></p>
+                                    </div>
+                                    <div class="col-lg-5 alignLeft">
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova + 1) ?>">
+                                            <p><?php echo $spratVise['spratovi_naziv'] ?> ≫</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- mobile -->
+                            <div class="container mobileNavSpratovi">
+                                <div class="row navSpratovi">
+                                    <div class="col-lg-12 alignRight">
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova - 1) ?>">
+                                            <p>≪</p>
+                                        </a>
+                                        <p><?php echo $data__['spratovi_naziv'] ?></p>
+                                        <a href="sprat.php?lk=<?php echo $nowLokacija ?>&sp=<?php echo ($nowSpratova + 1) ?>">
+                                            <p>≫</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <?php
+                        }
+
+                        ?>
 
                     </div>
                 </div>

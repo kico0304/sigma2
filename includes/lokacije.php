@@ -48,7 +48,7 @@ class Spratovi {
     public function fetch_all_spratovi($id) {
         global $pdo;
 
-        $query = $pdo->prepare("SELECT spratovi.* FROM lokacije JOIN spratovi ON lokacije.lokacija_id = spratovi.id_lokacije WHERE lokacije.lokacija_id = ? ORDER BY spratovi_id ASC");
+        $query = $pdo->prepare("SELECT spratovi.* FROM lokacije JOIN spratovi ON lokacije.lokacija_id = spratovi.id_lokacije WHERE lokacije.lokacija_id = ? ORDER BY spratovi_id DESC");
         $query->bindValue(1, $id);
         $query->execute();
 

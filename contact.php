@@ -125,10 +125,9 @@
 
 
  <div class="google-map ">
-    <!-- <div id="map"></div> -->
     <div class="mapouter">
         <div class="gmap_canvas">
-            <iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Bulevar%20vojvode%20%C5%BDivojina%20Mi%C5%A1i%C4%87a&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Branka%20%C4%86opi%C4%87a%2015/4&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             <style>
             .mapouter{position:relative;text-align:right;height:500px;width:100%;}
             </style>
@@ -139,19 +138,18 @@
         </div>
     </div>
 </div>
-<!-- footer Start
 
-    <!-- FOOTER -->
-    <?php include 'includes/footer.php'; ?>
+<!-- FOOTER -->
+<?php include 'includes/footer.php'; ?>
 
-    <script>
+<script>
     <?php if(isset($_GET['msg'])) { ?>
     alert("Vaša poruka je poslana. Hvala.");
     url = window.location.href;
     url = url.slice(0, url.lastIndexOf('?'));
     window.location.replace(url);
     <?php } ?>
-  </script>
+ </script>
 
 </body>
 </html>
