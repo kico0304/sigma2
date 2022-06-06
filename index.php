@@ -54,8 +54,9 @@
             <h2 class="mt-4 title-color">Sigma2 je povjerenje</h2>
 
             <p class="mb-2 pera-top">Vodeći računa o svakom detalju, odabrali smo samo najbolje za buduće vlasnike stanova.</p>
+            <p class="mb-2">Sigma2 je naziv projekata vezanih za izgradnju stambenih i poslovnih objekata, koji investira naša kompanija "S2 IT" d.o.o. Banja Luka</p>
 
-            <p class="mb-2">Naš osnovni cilj naše firme je da kupci budu zadovoljni kvalitetom naših stambenih objekata u svakom pogledu, i da kupovinom našeg stambenog ili poslovnog prostora žive i rade u okruženju koje ispunjava sve njihove zahtjeve.</p>
+            <p class="mb-2">Naš osnovni cilj je da kupci budu zadovoljni kvalitetom naših stambenih objekata u svakom pogledu i da kupovinom našeg stambenog ili poslovnog prostora žive i rade u okruženju koje ispunjava sve njihove zahtjeve.</p>
 
             <p class="mb-4">Naša kompanija se sa poštovanjem odnosi prema sredini u kojoj posluje, dopunjujući je kao dobar domaćin i brižni komšija, kao karika koja je nedostajale određenoj infrastrukturi da bi sve došlo na svoje mjesto.</p>
 
@@ -107,7 +108,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Infrastrukturna podrška</h3>
-              <p>Osnovni princip naše kompanije je "ključ u ruke" za naše kupce i klijente gradimo stambene i poslove objekte, uz kvalifikovani i stručni kadar inženjera iz oblasti arhitekture, elektrotehnike i mašinstva.</p>
+              <p>Osnovni princip naše kompanije je "ključ u ruke" za naše kupce i klijente gradimo stambene i poslove objekte, uz saranju sa vodećim graditeljskim i projektanskim komopanijama na našem tržištu.</p>
             </div>
           </div><!-- Service 3 end -->
 
@@ -129,7 +130,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Siguran izbor</h3>
-              <p>Kupovina stambenog prostora je kupovina poverenja koju nudu naša kompanija.</p>
+              <p>Kupovina stambenog prostora je kupovina poverenja koju nudi naša kompanija.</p>
             </div>
           </div><!-- Service 4 end -->
 
@@ -139,7 +140,7 @@
             </div>
             <div class="ts-service-box-info">
               <h3 class="service-box-title">Ulaganje u budućnost</h3>
-              <p>Kupovina stambenog prostora je velika investicija koja uz našu asistenciju uvek donosi kvalitet više i vrjednost više.</p>
+              <p>Kupovina stambenog prostora je velika investicija koja uz našu asistenciju uvjek donosi kvalitet više i vrijednost više.</p>
             </div>
           </div><!-- Service 5 end -->
 
