@@ -41,7 +41,7 @@
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-location-pin"></i>
                     <h5>Lokacija</h5>
-                    Bulevar vojvode Živojina Mišića
+                    Branka Ćopića 15/4
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">

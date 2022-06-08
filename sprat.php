@@ -49,7 +49,7 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
                         <h1 class="text-capitalize text-lg about-headline">Ponuda stanova</h1>
                         <span class="text-white">Lokacija - <?php echo $data_['lokacija_naziv'] ?></span>
 
-                        <?php 
+                        <?php
                         //prazan niz spratova
                         $nizSpratova = [];
                         //punimo niz spratova
@@ -222,46 +222,6 @@ if (isset($_GET['lk']) and isset($_GET['sp']) and isset($_GET['id'])) {
             </div>
             <!--End Wrapper-->
 
-        </div>
-    </section>
-
-    <section class="cta-section ">
-        <div class="container">
-            <h3 class="headline-projects">Tačke interesa</h3>
-            <div class="cta position-relative">
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter-stat">
-                            <i class="icofont-doctor"></i>
-                            <span class="h3">450</span>m
-                            <p>Dom zdravlja</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter-stat">
-                            <i class="icofont-flag"></i>
-                            <span class="h3">50</span>m
-                            <p>Škola</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter-stat">
-                            <i class="icofont-badge"></i>
-                            <span class="h3">550</span>m
-                            <p>Vrtić</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter-stat">
-                            <i class="icofont-globe"></i>
-                            <span class="h3">500</span>m
-                            <p>Moj market</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
