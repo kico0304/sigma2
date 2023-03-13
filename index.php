@@ -19,6 +19,8 @@
   <!-- HEADER -->
   <?php include 'includes/header.php'; ?>
 
+  <h1>test</h1>
+
   <section class="single-slider">
     <div class="slider-area">
       <div class="row">
